@@ -1,1 +1,681 @@
-W3snaWQnOiAnMScsICduYW1lJzogJ3BpbmcnLCAnZGVzY3JpcHRpb24nOiAiQ2hlY2sgdGhlIGJvdCdzIGxhdGVuY3kuIiwgJ2NhdGVnb3J5JzogJ0luZm9ybWF0aW9uJywgJ3VzYWdlJzogJ3BpbmcnfSwgeydpZCc6ICcyJywgJ25hbWUnOiAnYXV0b3JvbGUnLCAnZGVzY3JpcHRpb24nOiAnQXV0by1yb2xlLXJlbGF0ZWQgY29tbWFuZHMhJywgJ2NhdGVnb3J5JzogJ0F1dG9Sb2xlJywgJ3VzYWdlJzogJ2F1dG9yb2xlJ30sIHsnaWQnOiAnMycsICduYW1lJzogJ3VwdGltZScsICdkZXNjcmlwdGlvbic6ICJDaGVjayB0aGUgYm90J3MgdXB0aW1lLiIsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICd1cHRpbWUnfSwgeydpZCc6ICc0JywgJ25hbWUnOiAnZ29vZ2xlJywgJ2Rlc2NyaXB0aW9uJzogJ0dvb2dsZS1yZWxhdGVkIGNvbW1hbmRzIScsICdjYXRlZ29yeSc6ICdVdGlsaXR5JywgJ3VzYWdlJzogJ2dvb2dsZSd9LCB7J2lkJzogJzUnLCAnbmFtZSc6ICd0ZXN0aGVscCcsICdkZXNjcmlwdGlvbic6ICdObyBkZXNjcmlwdGlvbiBwcm92aWRlZCcsICdjYXRlZ29yeSc6ICdIZWxwJywgJ3VzYWdlJzogJ3Rlc3RoZWxwJ30sIHsnaWQnOiAnNicsICduYW1lJzogJ2hlbHAnLCAnZGVzY3JpcHRpb24nOiAnUmV0cmlldmUgdGhlIGxpc3Qgb2YgY29tbWFuZHMuJywgJ2NhdGVnb3J5JzogJ0hlbHAnLCAndXNhZ2UnOiAnaGVscCAoY29tbWFuZCknfSwgeydpZCc6ICc3JywgJ25hbWUnOiAnYXV0b3Jlc3BvbmRlcicsICdkZXNjcmlwdGlvbic6ICdNYW5hZ2UgYXV0byByZXNwb25zZXMnLCAnY2F0ZWdvcnknOiAnVXRpbGl0eScsICd1c2FnZSc6ICdhdXRvcmVzcG9uZGVyJ30sIHsnaWQnOiAnOCcsICduYW1lJzogJ3NwZWFrJywgJ2Rlc2NyaXB0aW9uJzogJ01ha2Ugc3RpdGNoIHNheSBzb21ldGhpbmcuJywgJ2NhdGVnb3J5JzogJ1V0aWxpdHknLCAndXNhZ2UnOiAnc3BlYWsgW3dvcmQocyldJ30sIHsnaWQnOiAnOScsICduYW1lJzogJ2lzcHJpbWUnLCAnZGVzY3JpcHRpb24nOiAnQ2hlY2sgaWYgYSBudW1iZXIgaXMgcHJpbWUuJywgJ2NhdGVnb3J5JzogJ1V0aWxpdHknLCAndXNhZ2UnOiAnaXNwcmltZSBbbnVtYmVyXSd9LCB7J2lkJzogJzEwJywgJ25hbWUnOiAnaW52aXRlJywgJ2Rlc2NyaXB0aW9uJzogJ0ludml0ZSBncm91cCB8IEdldCBib3QgaW52aXRlLicsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICdpbnZpdGUnfSwgeydpZCc6ICcxMScsICduYW1lJzogJ3NvY2lhbCcsICdkZXNjcmlwdGlvbic6ICdTb2NpYWwgZ3JvdXAuJywgJ2NhdGVnb3J5JzogJ1NvY2lhbCcsICd1c2FnZSc6ICdzb2NpYWwnfSwgeydpZCc6ICcxMicsICduYW1lJzogJ3ZvbHVtZScsICdkZXNjcmlwdGlvbic6ICdObyBkZXNjcmlwdGlvbiBwcm92aWRlZCcsICdjYXRlZ29yeSc6ICdNdXNpYycsICd1c2FnZSc6ICd2b2x1bWUgPHBlcmNlbnRhZ2U+J30sIHsnaWQnOiAnMTMnLCAnbmFtZSc6ICdhbmlsaXN0JywgJ2Rlc2NyaXB0aW9uJzogJ0xvb2t1cCBhbiBhbmltZSB1c2luZyBBbmlsaXN0LicsICdjYXRlZ29yeSc6ICdTb2NpYWwnLCAndXNhZ2UnOiAnYW5pbGlzdCBbdGl0bGVdJ30sIHsnaWQnOiAnMTQnLCAnbmFtZSc6ICdzaHVmZmxlJywgJ2Rlc2NyaXB0aW9uJzogJ05vIGRlc2NyaXB0aW9uIHByb3ZpZGVkJywgJ2NhdGVnb3J5JzogJ011c2ljJywgJ3VzYWdlJzogJ3NodWZmbGUnfSwgeydpZCc6ICcxNScsICduYW1lJzogJ3Zhbml0eScsICdkZXNjcmlwdGlvbic6ICdDaGVjayBpZiBhIHZhbml0eSBpcyBhdmFpbGFibGUnLCAnY2F0ZWdvcnknOiAnSW5mb3JtYXRpb24nLCAndXNhZ2UnOiAndmFuaXR5IFt2YW5pdHldJ30sIHsnaWQnOiAnMTYnLCAnbmFtZSc6ICdza2lwJywgJ2Rlc2NyaXB0aW9uJzogJ05vIGRlc2NyaXB0aW9uIHByb3ZpZGVkJywgJ2NhdGVnb3J5JzogJ011c2ljJywgJ3VzYWdlJzogJ3NraXAnfSwgeydpZCc6ICcxNycsICduYW1lJzogJ3BsYXknLCAnZGVzY3JpcHRpb24nOiAnTm8gZGVzY3JpcHRpb24gcHJvdmlkZWQnLCAnY2F0ZWdvcnknOiAnTXVzaWMnLCAndXNhZ2UnOiAncGxheSBbcXVlcnldJ30sIHsnaWQnOiAnMTgnLCAnbmFtZSc6ICdsZWF2ZScsICdkZXNjcmlwdGlvbic6ICdObyBkZXNjcmlwdGlvbiBwcm92aWRlZCcsICdjYXRlZ29yeSc6ICdNdXNpYycsICd1c2FnZSc6ICdsZWF2ZSd9LCB7J2lkJzogJzE5JywgJ25hbWUnOiAnd2VsY29tZScsICdkZXNjcmlwdGlvbic6ICdXZWxjb21lLXJlbGF0ZWQgY29tbWFuZHMhJywgJ2NhdGVnb3J5JzogJ1dlbGNvbWUnLCAndXNhZ2UnOiAnd2VsY29tZSd9LCB7J2lkJzogJzIwJywgJ25hbWUnOiAnaW1hZ2Vvbmx5JywgJ2Rlc2NyaXB0aW9uJzogJ1Jlc3RyaWN0IHVzZXJzIGZyb20gc2VuZGluZyBhbnl0aGluZyBidXQgaW1hZ2VzLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ2ltYWdlb25seSAoY2hhbm5lbCknfSwgeydpZCc6ICcyMicsICduYW1lJzogJ3NlcnZlcnVuYmxhY2tsaXN0JywgJ2Rlc2NyaXB0aW9uJzogJ1Jldm9rZSBhIHNlcnZlci1zcGVjaWZpYyBibGFja2xpc3Qgb24gYSB1c2VyLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ3NlcnZlcnVuYmxhY2tsaXN0IFt1c2VyXSd9LCB7J2lkJzogJzIzJywgJ25hbWUnOiAnc2VydmVyYmxhY2tsaXN0JywgJ2Rlc2NyaXB0aW9uJzogJ1Jlc3RyaWN0IGEgdXNlciBmcm9tIHVzaW5nIHRoZSBib3QgaW4gdGhpcyBzZXJ2ZXIuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnc2VydmVyYmxhY2tsaXN0IFt1c2VyXSd9LCB7J2lkJzogJzI0JywgJ25hbWUnOiAnY3J5cHRvJywgJ2Rlc2NyaXB0aW9uJzogJ01hbmFnZSB5b3VyIGNyeXB0b2N1cnJlbmN5IGJhbGFuY2VzLicsICdjYXRlZ29yeSc6ICdFY29ub215JywgJ3VzYWdlJzogJ2NyeXB0byd9LCB7J2lkJzogJzI1JywgJ25hbWUnOiAncmVnaXN0ZXInLCAnZGVzY3JpcHRpb24nOiAnUmVnaXN0ZXIgdG8gdXNlIGVjb25vbXkgY29tbWFuZHMuJywgJ2NhdGVnb3J5JzogJ0Vjb25vbXknLCAndXNhZ2UnOiAncmVnaXN0ZXInfSwgeydpZCc6ICcyNicsICduYW1lJzogJ251a2UnLCAnZGVzY3JpcHRpb24nOiAnRnVsbHkgY2xlYXIgdGhlIGNoYW5uZWwuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnbnVrZSd9LCB7J2lkJzogJzI3JywgJ25hbWUnOiAnZW1vamlzdGVhbCcsICdkZXNjcmlwdGlvbic6ICJUYWtlIGVtb2ppJ3MgZnJvbSBhbm90aGVyIHNlcnZlciBpbnRvIHlvdXJzIiwgJ2NhdGVnb3J5JzogJ1V0aWxpdHknLCAndXNhZ2UnOiAnZW1vamlzdGVhbCBbZW1vamkocyldJ30sIHsnaWQnOiAnMjgnLCAnbmFtZSc6ICdyb2xlYWxsJywgJ2Rlc2NyaXB0aW9uJzogJ0FkZCBhIHJvbGUgdG8gZXZlcnkgdXNlciBpbiB0aGUgc2VydmVyLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ3JvbGVhbGwgW3JvbGVdJ30sIHsnaWQnOiAnMjknLCAnbmFtZSc6ICd1bnJlZ2lzdGVyJywgJ2Rlc2NyaXB0aW9uJzogJ1VucmVnaXN0ZXIgZnJvbSBlY29ub215IGNvbW1hbmRzLicsICdjYXRlZ29yeSc6ICdFY29ub215JywgJ3VzYWdlJzogJ3VucmVnaXN0ZXInfSwgeydpZCc6ICczMCcsICduYW1lJzogJ3B1cmNoYXNlJywgJ2Rlc2NyaXB0aW9uJzogJ1B1cmNoYXNlIGFuIGl0ZW0uJywgJ2NhdGVnb3J5JzogJ0Vjb25vbXknLCAndXNhZ2UnOiAncHVyY2hhc2UnfSwgeydpZCc6ICczMScsICduYW1lJzogJ3VzZXInLCAnZGVzY3JpcHRpb24nOiAnVXNlciBncm91cCcsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICd1c2VyJ30sIHsnaWQnOiAnMzInLCAnbmFtZSc6ICduc2Z3JywgJ2Rlc2NyaXB0aW9uJzogJ1RvZ2dsZSB0aGUgTlNGVyBvZiBhIGNoYW5uZWwuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnbnNmdyBbb24vb2ZmXSAoY2hhbm5lbCknfSwgeydpZCc6ICczMycsICduYW1lJzogJ3N1cHBvcnQnLCAnZGVzY3JpcHRpb24nOiAnR2V0IHRoZSBsaW5rIGZvciB0aGUgc3VwcG9ydCBzZXJ2ZXInLCAnY2F0ZWdvcnknOiAnSW5mb3JtYXRpb24nLCAndXNhZ2UnOiAnc3VwcG9ydCd9LCB7J2lkJzogJzM0JywgJ25hbWUnOiAna2ljaycsICdkZXNjcmlwdGlvbic6ICdLaWNrIGEgdXNlciBmcm9tIHRoZSBzZXJ2ZXIuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAna2ljayBbdXNlci9pZF0gKHJlYXNvbiknfSwgeydpZCc6ICczNScsICduYW1lJzogJ2ZpcnN0bWVzc2FnZScsICdkZXNjcmlwdGlvbic6ICdSZXRyaWV2ZSB0aGUgZmlyc3QgbWVzc2FnZSBpbiBhIGNoYW5uZWwnLCAnY2F0ZWdvcnknOiAnSW5mb3JtYXRpb24nLCAndXNhZ2UnOiAnZmlyc3RtZXNzYWdlIChjaGFubmVsKSd9LCB7J2lkJzogJzM2JywgJ25hbWUnOiAndGVtcG1haWwnLCAnZGVzY3JpcHRpb24nOiAnVGVtcE1haWwtcmVsYXRlZCBjb21tYW5kcyEnLCAnY2F0ZWdvcnknOiAnVXRpbGl0eScsICd1c2FnZSc6ICd0ZW1wbWFpbCd9LCB7J2lkJzogJzM3JywgJ25hbWUnOiAnbW92ZScsICdkZXNjcmlwdGlvbic6ICdNb3ZlIGEgdXNlciB0byBhbm90aGVyIHZvaWNlIGNoYW5uZWwuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnbW92ZSBbdXNlcl0gW3ZvaWNlX2NoYW5uZWxdJ30sIHsnaWQnOiAnMzgnLCAnbmFtZSc6ICdzZWxmcHVyZ2UnLCAnZGVzY3JpcHRpb24nOiAnTm8gZGVzY3JpcHRpb24gcHJvdmlkZWQnLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICdzZWxmcHVyZ2UgKGFtb3VudCknfSwgeydpZCc6ICczOScsICduYW1lJzogJ2Rpc2Nvbm5lY3QnLCAnZGVzY3JpcHRpb24nOiAnRGlzY29ubmVjdCBhIHVzZXIgZnJvbSB0aGUgdm9pY2UgY2hhbm5lbC4nLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICdkaXNjb25uZWN0IFt1c2VyXSd9LCB7J2lkJzogJzQwJywgJ25hbWUnOiAncHVyZ2UnLCAnZGVzY3JpcHRpb24nOiAnTm8gZGVzY3JpcHRpb24gcHJvdmlkZWQnLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICdwdXJnZSAodXNlcikgW2Ftb3VudF0nfSwgeydpZCc6ICc0MScsICduYW1lJzogJ2Jhbmxpc3QnLCAnZGVzY3JpcHRpb24nOiAnVmlldyB0aGUgbGlzdCBvZiBiYW5uZWQgdXNlcnMgaW4gdGhlIHNlcnZlcicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ2Jhbmxpc3QnfSwgeydpZCc6ICc0MicsICduYW1lJzogJ3JvbGUnLCAnZGVzY3JpcHRpb24nOiAnQWRkIG9yIHJlbW92ZSBhIHJvbGUgZnJvbSBhIHVzZXIuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAncm9sZSBbdXNlcl0gW3JvbGUvcm9sZWlkXSd9LCB7J2lkJzogJzQzJywgJ25hbWUnOiAncmVzdW1lJywgJ2Rlc2NyaXB0aW9uJzogJ05vIGRlc2NyaXB0aW9uIHByb3ZpZGVkJywgJ2NhdGVnb3J5JzogJ011c2ljJywgJ3VzYWdlJzogJ3Jlc3VtZSd9LCB7J2lkJzogJzQ0JywgJ25hbWUnOiAnaW1hZ2VtdXRlJywgJ2Rlc2NyaXB0aW9uJzogJ0Jsb2NrIG9yIHVuLWJsb2NrIGEgdXNlciBmcm9tIHNlbmRpbmcgaW1hZ2VzLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ2ltYWdlbXV0ZSBbdXNlcl0nfSwgeydpZCc6ICc0NScsICduYW1lJzogJ2NyZWF0ZXJvbGUnLCAnZGVzY3JpcHRpb24nOiAnQ3JlYXRlIGEgcm9sZS4nLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICdjcmVhdGVyb2xlIFtuYW1lXSAoY29sb3IgSEVYKSd9LCB7J2lkJzogJzQ2JywgJ25hbWUnOiAnc2xvd21vZGUnLCAnZGVzY3JpcHRpb24nOiAnU2V0IHRoZSBzbG93bW9kZSBmb3IgYSBjaGFubmVsLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ3Nsb3dtb2RlIChjaGFubmVsKSAodGltZSknfSwgeydpZCc6ICc0NycsICduYW1lJzogJ3Zhbml0eXJvbGUnLCAnZGVzY3JpcHRpb24nOiAnVmFuaXR5LXJvbGUtcmVsYXRlZCBjb21tYW5kcyEnLCAnY2F0ZWdvcnknOiAnQ29uZmlndXJhdGlvbicsICd1c2FnZSc6ICd2YW5pdHlyb2xlJ30sIHsnaWQnOiAnNDgnLCAnbmFtZSc6ICdjbGVhcicsICdkZXNjcmlwdGlvbic6ICdObyBkZXNjcmlwdGlvbiBwcm92aWRlZCcsICdjYXRlZ29yeSc6ICdNdXNpYycsICd1c2FnZSc6ICdjbGVhcid9LCB7J2lkJzogJzQ5JywgJ25hbWUnOiAndW5sb2NrJywgJ2Rlc2NyaXB0aW9uJzogJ1VubG9jayBhIGNoYW5uZWwuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAndW5sb2NrIChjaGFubmVsKSd9LCB7J2lkJzogJzUwJywgJ25hbWUnOiAncGF1c2UnLCAnZGVzY3JpcHRpb24nOiAnTm8gZGVzY3JpcHRpb24gcHJvdmlkZWQnLCAnY2F0ZWdvcnknOiAnTXVzaWMnLCAndXNhZ2UnOiAncGF1c2UnfSwgeydpZCc6ICc1MicsICduYW1lJzogJ2xvY2tkb3duJywgJ2Rlc2NyaXB0aW9uJzogJ0xvY2sgZG93biB0aGUgc2VydmVyLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ2xvY2tkb3duJ30sIHsnaWQnOiAnNTMnLCAnbmFtZSc6ICdiYWxhbmNlJywgJ2Rlc2NyaXB0aW9uJzogJ0NoZWNrIHlvdXIgZWNvbm9teSBiYWxhbmNlLicsICdjYXRlZ29yeSc6ICdFY29ub215JywgJ3VzYWdlJzogJ2JhbGFuY2UnfSwgeydpZCc6ICc1NScsICduYW1lJzogJ3JlZmVycmFsJywgJ2Rlc2NyaXB0aW9uJzogJ0dldCB5b3VyIHJlZmVycmFsIGNvZGUuJywgJ2NhdGVnb3J5JzogJ0Vjb25vbXknLCAndXNhZ2UnOiAncmVmZXJyYWwnfSwgeydpZCc6ICc1NicsICduYW1lJzogJ3VuYmFuJywgJ2Rlc2NyaXB0aW9uJzogJ1VuYmFuIGEgdXNlciBmcm9tIHRoZSBzZXJ2ZXIuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAndW5iYW4gW3VzZXJfaWRdJ30sIHsnaWQnOiAnNTcnLCAnbmFtZSc6ICdzZXJ2ZXInLCAnZGVzY3JpcHRpb24nOiAnU2VydmVyIGdyb3VwJywgJ2NhdGVnb3J5JzogJ0luZm9ybWF0aW9uJywgJ3VzYWdlJzogJ3NlcnZlcid9LCB7J2lkJzogJzU4JywgJ25hbWUnOiAndGltZW91dCcsICdkZXNjcmlwdGlvbic6ICdUaW1lIGEgdXNlciBvdXQuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAndGltZW91dCBbdXNlcl0gKHRpbWUpIChyZWFzb24pJ30sIHsnaWQnOiAnNjAnLCAnbmFtZSc6ICdib3RpbmZvJywgJ2Rlc2NyaXB0aW9uJzogJ1JldHJpZXZlIGluZm9ybWF0aW9uIGFib3V0IHRoZSBib3QuJywgJ2NhdGVnb3J5JzogJ0luZm9ybWF0aW9uJywgJ3VzYWdlJzogJ2JvdGluZm8nfSwgeydpZCc6ICc2MScsICduYW1lJzogJ2VtYmVkJywgJ2Rlc2NyaXB0aW9uJzogJ0VtYmVkIGdyb3VwLicsICdjYXRlZ29yeSc6ICdVdGlsaXR5JywgJ3VzYWdlJzogJ2VtYmVkJ30sIHsnaWQnOiAnNjMnLCAnbmFtZSc6ICd1bnRpbWVvdXQnLCAnZGVzY3JpcHRpb24nOiAnUmVtb3ZlIGEgdGltZW91dCBmcm9tIGEgdXNlci4nLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICd1bnRpbWVvdXQgW3VzZXJdIChyZWFzb24pJ30sIHsnaWQnOiAnNjUnLCAnbmFtZSc6ICdiZWcnLCAnZGVzY3JpcHRpb24nOiAnQmVnIGZvciBtb25leS4nLCAnY2F0ZWdvcnknOiAnRWNvbm9teScsICd1c2FnZSc6ICdiZWcnfSwgeydpZCc6ICc2NycsICduYW1lJzogJ2hpZGUnLCAnZGVzY3JpcHRpb24nOiAnSGlkZXMgYSBzcGVjaWZpZWQgY2hhbm5lbCBmcm9tIGV2ZXJ5b25lLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ2hpZGUgKGNoYW5uZWwpJ30sIHsnaWQnOiAnNzAnLCAnbmFtZSc6ICd3b3JrJywgJ2Rlc2NyaXB0aW9uJzogJ1dvcmsgdG8gZWFybiBtb25leS4nLCAnY2F0ZWdvcnknOiAnRWNvbm9teScsICd1c2FnZSc6ICd3b3JrJ30sIHsnaWQnOiAnNzEnLCAnbmFtZSc6ICd0ZXh0b25seScsICdkZXNjcmlwdGlvbic6ICdSZXN0cmljdCB1c2VycyBmcm9tIHNlbmRpbmcgaW1hZ2VzLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ3RleHRvbmx5IChjaGFubmVsKSd9LCB7J2lkJzogJzcyJywgJ25hbWUnOiAnYWRkX21vbmV5JywgJ2Rlc2NyaXB0aW9uJzogJ05vIGRlc2NyaXB0aW9uIHByb3ZpZGVkJywgJ2NhdGVnb3J5JzogJ0Vjb25vbXknLCAndXNhZ2UnOiAnYWRkX21vbmV5J30sIHsnaWQnOiAnNzMnLCAnbmFtZSc6ICdhdWRpdGxvZ3MnLCAnZGVzY3JpcHRpb24nOiAnUmV0cmlldmUgdGhlIGF1ZGl0IGxvZ3MuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnYXVkaXRsb2dzJ30sIHsnaWQnOiAnNzQnLCAnbmFtZSc6ICdkYWlseScsICdkZXNjcmlwdGlvbic6ICdDbGFpbSB5b3VyIGRhaWx5IHJld2FyZC4nLCAnY2F0ZWdvcnknOiAnRWNvbm9teScsICd1c2FnZSc6ICdkYWlseSd9LCB7J2lkJzogJzc1JywgJ25hbWUnOiAncmVzZXRuaWNrbmFtZScsICdkZXNjcmlwdGlvbic6ICJSZXNldHMgYSB1c2VyJ3Mgbmlja25hbWUuIiwgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAncmVzZXRuaWNrbmFtZSBbbWVtYmVyXSd9LCB7J2lkJzogJzc2JywgJ25hbWUnOiAnbWVtYmVyY291bnQnLCAnZGVzY3JpcHRpb24nOiAnR2V0IHRoZSBtZW1iZXIgY291bnQgb2YgdGhlIHNlcnZlci4nLCAnY2F0ZWdvcnknOiAnSW5mb3JtYXRpb24nLCAndXNhZ2UnOiAnbWVtYmVyY291bnQnfSwgeydpZCc6ICc3OCcsICduYW1lJzogJ3dlZWtseScsICdkZXNjcmlwdGlvbic6ICdDbGFpbSB5b3VyIHdlZWtseSByZXdhcmQuJywgJ2NhdGVnb3J5JzogJ0Vjb25vbXknLCAndXNhZ2UnOiAnd2Vla2x5J30sIHsnaWQnOiAnNzknLCAnbmFtZSc6ICdib3RzJywgJ2Rlc2NyaXB0aW9uJzogJ0xpc3QgYWxsIGJvdHMgaW4gdGhlIHNlcnZlcicsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICdib3RzJ30sIHsnaWQnOiAnODAnLCAnbmFtZSc6ICdhbnRpbnVrZScsICdkZXNjcmlwdGlvbic6ICdBbnRpTnVrZS1yZWxhdGVkIGNvbW1hbmRzIScsICdjYXRlZ29yeSc6ICdDb25maWd1cmF0aW9uJywgJ3VzYWdlJzogJ2FudGludWtlJ30sIHsnaWQnOiAnODEnLCAnbmFtZSc6ICdzaGF6YW0nLCAnZGVzY3JpcHRpb24nOiAnR2V0IGEgc29uZyBmcm9tIGFuIGF1ZGlvL3ZpZGVvIHVzaW5nIHNoYXphbS4nLCAnY2F0ZWdvcnknOiAnVXRpbGl0eScsICd1c2FnZSc6ICdzaGF6YW0gW3ZpZGVvL2F1ZGlvXSd9LCB7J2lkJzogJzgyJywgJ25hbWUnOiAndW5oaWRlJywgJ2Rlc2NyaXB0aW9uJzogJ01ha2VzIGEgaGlkZGVuIGNoYW5uZWwgdmlzaWJsZSB0byBldmVyeW9uZS4nLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICd1bmhpZGUgKGNoYW5uZWwpJ30sIHsnaWQnOiAnODQnLCAnbmFtZSc6ICdtb250aGx5JywgJ2Rlc2NyaXB0aW9uJzogJ0NsYWltIHlvdXIgbW9udGhseSByZXdhcmQuJywgJ2NhdGVnb3J5JzogJ0Vjb25vbXknLCAndXNhZ2UnOiAnbW9udGhseSd9LCB7J2lkJzogJzg1JywgJ25hbWUnOiAnc3dhcCcsICdkZXNjcmlwdGlvbic6ICJDaGVjayB0aGUgYm90J3Mgc3dhcCBtZW1vcnkgdXNhZ2UuIiwgJ2NhdGVnb3J5JzogJ0luZm9ybWF0aW9uJywgJ3VzYWdlJzogJ3N3YXAnfSwgeydpZCc6ICc4NicsICduYW1lJzogJ2xvY2snLCAnZGVzY3JpcHRpb24nOiAnTG9jayBhIGNoYW5uZWwuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnbG9jayAoY2hhbm5lbCknfSwgeydpZCc6ICc4NycsICduYW1lJzogJ3JlYWN0aW9uZ2FtZScsICdkZXNjcmlwdGlvbic6ICdQbGF5IGEgZ2FtZSBvZiByZWFjdGlvbnNwZWVkIScsICdjYXRlZ29yeSc6ICdHYW1lcycsICd1c2FnZSc6ICdyZWFjdGlvbmdhbWUnfSwgeydpZCc6ICc4OCcsICduYW1lJzogJ2RlcG9zaXQnLCAnZGVzY3JpcHRpb24nOiAnRGVwb3NpdCBtb25leSBpbnRvIHlvdXIgYmFuay4nLCAnY2F0ZWdvcnknOiAnRWNvbm9teScsICd1c2FnZSc6ICdkZXBvc2l0J30sIHsnaWQnOiAnOTAnLCAnbmFtZSc6ICdkaXNraW8nLCAnZGVzY3JpcHRpb24nOiAiQ2hlY2sgdGhlIGJvdCdzIGRpc2sgSS9PIHN0YXRpc3RpY3MuIiwgJ2NhdGVnb3J5JzogJ0luZm9ybWF0aW9uJywgJ3VzYWdlJzogJ2Rpc2tpbyd9LCB7J2lkJzogJzkyJywgJ25hbWUnOiAnbmlja25hbWUnLCAnZGVzY3JpcHRpb24nOiAiQ2hhbmdlcyBhIHVzZXIncyBuaWNrbmFtZSIsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ25pY2tuYW1lIFttZW1iZXJdIFtuaWNrbmFtZV0nfSwgeydpZCc6ICc5MycsICduYW1lJzogJ3dpdGhkcmF3JywgJ2Rlc2NyaXB0aW9uJzogJ1dpdGhkcmF3IG1vbmV5IGZyb20geW91ciBiYW5rLicsICdjYXRlZ29yeSc6ICdFY29ub215JywgJ3VzYWdlJzogJ3dpdGhkcmF3J30sIHsnaWQnOiAnOTQnLCAnbmFtZSc6ICduZXR3b3JrJywgJ2Rlc2NyaXB0aW9uJzogIkNoZWNrIHRoZSBib3QncyBuZXR3b3JrIHVzYWdlLiIsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICduZXR3b3JrJ30sIHsnaWQnOiAnOTUnLCAnbmFtZSc6ICduaWNrbmFtZWFsbCcsICdkZXNjcmlwdGlvbic6ICdDaGFuZ2VzIHRoZSBuaWNrbmFtZSBvZiBhbGwgc2VydmVyIG1lbWJlcnMuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAnbmlja25hbWVhbGwgW25pY2tuYW1lXSd9LCB7J2lkJzogJzk2JywgJ25hbWUnOiAndGljdGFjdG9lJywgJ2Rlc2NyaXB0aW9uJzogJ1BsYXkgdGljdGFjdG9lIHdpdGggYSBidWRkeS4nLCAnY2F0ZWdvcnknOiAnR2FtZXMnLCAndXNhZ2UnOiAndGljdGFjdG9lIFt1c2VyXSd9LCB7J2lkJzogJzk4JywgJ25hbWUnOiAndHJhbnNmZXInLCAnZGVzY3JpcHRpb24nOiAnVHJhbnNmZXIgbW9uZXkgdG8gYW5vdGhlciB1c2VyLicsICdjYXRlZ29yeSc6ICdFY29ub215JywgJ3VzYWdlJzogJ3RyYW5zZmVyJ30sIHsnaWQnOiAnOTknLCAnbmFtZSc6ICdkaXNrJywgJ2Rlc2NyaXB0aW9uJzogIkNoZWNrIHRoZSBib3QncyBkaXNrIHVzYWdlLiIsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICdkaXNrJ30sIHsnaWQnOiAnMTAwJywgJ25hbWUnOiAndW5iYW5hbGwnLCAnZGVzY3JpcHRpb24nOiAnVW5iYW4gYWxsIHVzZXJzIHRoYXQgaGF2ZSBiZWVuIGJhbm5lZCBmcm9tIHRoZSBzZXJ2ZXIuJywgJ2NhdGVnb3J5JzogJ01vZGVyYXRpb24nLCAndXNhZ2UnOiAndW5iYW5hbGwnfSwgeydpZCc6ICcxMDInLCAnbmFtZSc6ICdwcmVmaXgnLCAnZGVzY3JpcHRpb24nOiAnVmlldyB0aGUgcHJlZml4IGZvciB0aGUgc2VydmVyLicsICdjYXRlZ29yeSc6ICdDb25maWd1cmF0aW9uJywgJ3VzYWdlJzogJ3ByZWZpeCd9LCB7J2lkJzogJzEwMycsICduYW1lJzogJ3RocmVhZHMnLCAnZGVzY3JpcHRpb24nOiAiQ2hlY2sgdGhlIGJvdCdzIGFjdGl2ZSB0aHJlYWRzLiIsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICd0aHJlYWRzJ30sIHsnaWQnOiAnMTA0JywgJ25hbWUnOiAnc25pcGUnLCAnZGVzY3JpcHRpb24nOiAnUmV0cmlldmUgdGhlIG1vc3QgcmVjZW50bHkgZGVsZXRlZCBtZXNzYWdlIGluIHRoaXMgc2VydmVyLicsICdjYXRlZ29yeSc6ICdTbmlwZScsICd1c2FnZSc6ICdzbmlwZSd9LCB7J2lkJzogJzEwNScsICduYW1lJzogJ3Jlc2V0bmlja25hbWVhbGwnLCAnZGVzY3JpcHRpb24nOiAnUmVzZXRzIHRoZSBuaWNrbmFtZXMgb2YgYWxsIHNlcnZlciBtZW1iZXJzLicsICdjYXRlZ29yeSc6ICdNb2RlcmF0aW9uJywgJ3VzYWdlJzogJ3Jlc2V0bmlja25hbWVhbGwnfSwgeydpZCc6ICcxMDYnLCAnbmFtZSc6ICdlZGl0c25pcGUnLCAnZGVzY3JpcHRpb24nOiAnUmV0cmlldmUgdGhlIG1vc3QgcmVjZW50bHkgZWRpdGVkIG1lc3NhZ2UgaW4gdGhpcyBzZXJ2ZXIuJywgJ2NhdGVnb3J5JzogJ1NuaXBlJywgJ3VzYWdlJzogJ2VkaXRzbmlwZSd9LCB7J2lkJzogJzEwNycsICduYW1lJzogJ3JhbScsICdkZXNjcmlwdGlvbic6ICJDaGVjayB0aGUgYm90J3MgUkFNIHVzYWdlLiIsICdjYXRlZ29yeSc6ICdJbmZvcm1hdGlvbicsICd1c2FnZSc6ICdyYW0nfSwgeydpZCc6ICcxMDgnLCAnbmFtZSc6ICdzb2Z0YmFuJywgJ2Rlc2NyaXB0aW9uJzogJ1NvZnRiYW4gYSB1c2VyIGZyb20gdGhlIHNlcnZlci4nLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICdzb2Z0YmFuIFt1c2VyL2lkXSAocmVhc29uKSd9LCB7J2lkJzogJzEwOScsICduYW1lJzogJ3JlYWN0aW9uc25pcGUnLCAnZGVzY3JpcHRpb24nOiAnUmV0cmlldmUgdGhlIG1vc3QgcmVjZW50bHkgZGVsZXRlZCByZWFjdGlvbiBpbiB0aGlzIHNlcnZlci4nLCAnY2F0ZWdvcnknOiAnU25pcGUnLCAndXNhZ2UnOiAncmVhY3Rpb25zbmlwZSd9LCB7J2lkJzogJzExMCcsICduYW1lJzogJ2NvZGVjaGFsbGVuZ2UnLCAnZGVzY3JpcHRpb24nOiAnQ2hhbGxlbmdlIHlvdXJzZWxmIHRvIGEgZ2FtZSBvZiBjb2RlIScsICdjYXRlZ29yeSc6ICdGdW4nLCAndXNhZ2UnOiAnY29kZWNoYWxsZW5nZSAobGFuZ3VhZ2UgZGVmYXVsdHMgdG8gcHl0aG9uKSBbbGV2ZWxdJ30sIHsnaWQnOiAnMTExJywgJ25hbWUnOiAnbWVtb3J5JywgJ2Rlc2NyaXB0aW9uJzogIkNoZWNrIHRoZSBib3QncyBtZW1vcnkgdXNhZ2UuIiwgJ2NhdGVnb3J5JzogJ0luZm9ybWF0aW9uJywgJ3VzYWdlJzogJ21lbW9yeSd9LCB7J2lkJzogJzExMicsICduYW1lJzogJ2JhbicsICdkZXNjcmlwdGlvbic6ICdCYW4gYSB1c2VyIGZyb20gdGhlIHNlcnZlci4nLCAnY2F0ZWdvcnknOiAnTW9kZXJhdGlvbicsICd1c2FnZSc6ICdiYW4gW3VzZXJdIChyZWFzb24pJ31d
+[
+  {
+    "id": "2",
+    "name": "monthly",
+    "description": "Claim your monthly reward.",
+    "category": "Economy",
+    "usage": "monthly"
+  },
+  {
+    "id": "3",
+    "name": "ping",
+    "description": "Check the bot's latency.",
+    "category": "Information",
+    "usage": "ping"
+  },
+  {
+    "id": "4",
+    "name": "autorole",
+    "description": "Auto-role-related commands!",
+    "category": "AutoRole",
+    "usage": "autorole"
+  },
+  {
+    "id": "5",
+    "name": "deposit",
+    "description": "Deposit money into your bank.",
+    "category": "Economy",
+    "usage": "deposit"
+  },
+  {
+    "id": "7",
+    "name": "uptime",
+    "description": "Check the bot's uptime.",
+    "category": "Information",
+    "usage": "uptime"
+  },
+  {
+    "id": "8",
+    "name": "withdraw",
+    "description": "Withdraw money from your bank.",
+    "category": "Economy",
+    "usage": "withdraw"
+  },
+  {
+    "id": "9",
+    "name": "autoresponder",
+    "description": "Manage auto responses",
+    "category": "Utility",
+    "usage": "autoresponder"
+  },
+  {
+    "id": "10",
+    "name": "transfer",
+    "description": "Transfer money to another user.",
+    "category": "Economy",
+    "usage": "transfer"
+  },
+  {
+    "id": "11",
+    "name": "speak",
+    "description": "Make stitch say something.",
+    "category": "Utility",
+    "usage": "speak [word(s)]"
+  },
+  {
+    "id": "12",
+    "name": "isprime",
+    "description": "Check if a number is prime.",
+    "category": "Utility",
+    "usage": "isprime [number]"
+  },
+  {
+    "id": "13",
+    "name": "invite",
+    "description": "Invite group | Get bot invite.",
+    "category": "Information",
+    "usage": "invite"
+  },
+  {
+    "id": "14",
+    "name": "prefix",
+    "description": "View the prefix for the server.",
+    "category": "Configuration",
+    "usage": "prefix"
+  },
+  {
+    "id": "15",
+    "name": "testhelp",
+    "description": "No description provided",
+    "category": "Help",
+    "usage": "testhelp"
+  },
+  {
+    "id": "16",
+    "name": "clear",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "clear"
+  },
+  {
+    "id": "17",
+    "name": "anilist",
+    "description": "Lookup an anime using Anilist.",
+    "category": "Social",
+    "usage": "anilist [title]"
+  },
+  {
+    "id": "18",
+    "name": "help",
+    "description": "Retrieve the list of commands.",
+    "category": "Help",
+    "usage": "help (command)"
+  },
+  {
+    "id": "19",
+    "name": "google",
+    "description": "Google-related commands!",
+    "category": "Utility",
+    "usage": "google"
+  },
+  {
+    "id": "20",
+    "name": "vanity",
+    "description": "Check if a vanity is available",
+    "category": "Information",
+    "usage": "vanity [vanity]"
+  },
+  {
+    "id": "21",
+    "name": "social",
+    "description": "Social group.",
+    "category": "Social",
+    "usage": "social"
+  },
+  {
+    "id": "22",
+    "name": "welcome",
+    "description": "Welcome-related commands!",
+    "category": "Welcome",
+    "usage": "welcome"
+  },
+  {
+    "id": "23",
+    "name": "antinuke",
+    "description": "AntiNuke-related commands!",
+    "category": "Configuration",
+    "usage": "antinuke"
+  },
+  {
+    "id": "24",
+    "name": "leave",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "leave"
+  },
+  {
+    "id": "25",
+    "name": "codechallenge",
+    "description": "Challenge yourself to a game of code!",
+    "category": "Fun",
+    "usage": "codechallenge (language defaults to python) [level]"
+  },
+  {
+    "id": "26",
+    "name": "imageonly",
+    "description": "Restrict users from sending anything but images.",
+    "category": "Moderation",
+    "usage": "imageonly (channel)"
+  },
+  {
+    "id": "27",
+    "name": "serverunblacklist",
+    "description": "Revoke a server-specific blacklist on a user.",
+    "category": "Moderation",
+    "usage": "serverunblacklist [user]"
+  },
+  {
+    "id": "28",
+    "name": "serverblacklist",
+    "description": "Restrict a user from using the bot in this server.",
+    "category": "Moderation",
+    "usage": "serverblacklist [user]"
+  },
+  {
+    "id": "29",
+    "name": "emojisteal",
+    "description": "Take emoji's from another server into yours",
+    "category": "Utility",
+    "usage": "emojisteal [emoji(s)]"
+  },
+  {
+    "id": "30",
+    "name": "nuke",
+    "description": "Fully clear the channel.",
+    "category": "Moderation",
+    "usage": "nuke"
+  },
+  {
+    "id": "32",
+    "name": "roleall",
+    "description": "Add a role to every user in the server.",
+    "category": "Moderation",
+    "usage": "roleall [role]"
+  },
+  {
+    "id": "33",
+    "name": "shuffle",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "shuffle"
+  },
+  {
+    "id": "34",
+    "name": "user",
+    "description": "User group",
+    "category": "Information",
+    "usage": "user"
+  },
+  {
+    "id": "35",
+    "name": "support",
+    "description": "Get the link for the support server",
+    "category": "Information",
+    "usage": "support"
+  },
+  {
+    "id": "36",
+    "name": "nsfw",
+    "description": "Toggle the NSFW of a channel.",
+    "category": "Moderation",
+    "usage": "nsfw [on/off] (channel)"
+  },
+  {
+    "id": "37",
+    "name": "kick",
+    "description": "Kick a user from the server.",
+    "category": "Moderation",
+    "usage": "kick [user/id] (reason)"
+  },
+  {
+    "id": "38",
+    "name": "volume",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "volume <percentage>"
+  },
+  {
+    "id": "39",
+    "name": "firstmessage",
+    "description": "Retrieve the first message in a channel",
+    "category": "Information",
+    "usage": "firstmessage (channel)"
+  },
+  {
+    "id": "40",
+    "name": "tempmail",
+    "description": "TempMail-related commands!",
+    "category": "Utility",
+    "usage": "tempmail"
+  },
+  {
+    "id": "41",
+    "name": "move",
+    "description": "Move a user to another voice channel.",
+    "category": "Moderation",
+    "usage": "move [user] [voice_channel]"
+  },
+  {
+    "id": "42",
+    "name": "selfpurge",
+    "description": "No description provided",
+    "category": "Moderation",
+    "usage": "selfpurge (amount)"
+  },
+  {
+    "id": "43",
+    "name": "disconnect",
+    "description": "Disconnect a user from the voice channel.",
+    "category": "Moderation",
+    "usage": "disconnect [user]"
+  },
+  {
+    "id": "44",
+    "name": "crypto",
+    "description": "Manage your cryptocurrency balances.",
+    "category": "Economy",
+    "usage": "crypto"
+  },
+  {
+    "id": "45",
+    "name": "purge",
+    "description": "No description provided",
+    "category": "Moderation",
+    "usage": "purge (user) [amount]"
+  },
+  {
+    "id": "46",
+    "name": "register",
+    "description": "Register to use economy commands.",
+    "category": "Economy",
+    "usage": "register"
+  },
+  {
+    "id": "47",
+    "name": "banlist",
+    "description": "View the list of banned users in the server",
+    "category": "Moderation",
+    "usage": "banlist"
+  },
+  {
+    "id": "48",
+    "name": "role",
+    "description": "Add or remove a role from a user.",
+    "category": "Moderation",
+    "usage": "role [user] [role/roleid]"
+  },
+  {
+    "id": "49",
+    "name": "unregister",
+    "description": "Unregister from economy commands.",
+    "category": "Economy",
+    "usage": "unregister"
+  },
+  {
+    "id": "50",
+    "name": "purchase",
+    "description": "Purchase an item.",
+    "category": "Economy",
+    "usage": "purchase"
+  },
+  {
+    "id": "51",
+    "name": "imagemute",
+    "description": "Block or un-block a user from sending images.",
+    "category": "Moderation",
+    "usage": "imagemute [user]"
+  },
+  {
+    "id": "52",
+    "name": "createrole",
+    "description": "Create a role.",
+    "category": "Moderation",
+    "usage": "createrole [name] (color HEX)"
+  },
+  {
+    "id": "53",
+    "name": "slowmode",
+    "description": "Set the slowmode for a channel.",
+    "category": "Moderation",
+    "usage": "slowmode (channel) (time)"
+  },
+  {
+    "id": "54",
+    "name": "unlock",
+    "description": "Unlock a channel.",
+    "category": "Moderation",
+    "usage": "unlock (channel)"
+  },
+  {
+    "id": "55",
+    "name": "lockdown",
+    "description": "Lock down the server.",
+    "category": "Moderation",
+    "usage": "lockdown"
+  },
+  {
+    "id": "56",
+    "name": "unban",
+    "description": "Unban a user from the server.",
+    "category": "Moderation",
+    "usage": "unban [user_id]"
+  },
+  {
+    "id": "58",
+    "name": "vanityrole",
+    "description": "Vanity-role-related commands!",
+    "category": "Configuration",
+    "usage": "vanityrole"
+  },
+  {
+    "id": "59",
+    "name": "server",
+    "description": "Server group",
+    "category": "Information",
+    "usage": "server"
+  },
+  {
+    "id": "60",
+    "name": "botinfo",
+    "description": "Retrieve information about the bot.",
+    "category": "Information",
+    "usage": "botinfo"
+  },
+  {
+    "id": "61",
+    "name": "embed",
+    "description": "Embed group.",
+    "category": "Utility",
+    "usage": "embed"
+  },
+  {
+    "id": "62",
+    "name": "ban",
+    "description": "Ban a user from the server.",
+    "category": "Moderation",
+    "usage": "ban [user] (reason)"
+  },
+  {
+    "id": "64",
+    "name": "softban",
+    "description": "Softban a user from the server.",
+    "category": "Moderation",
+    "usage": "softban [user/id] (reason)"
+  },
+  {
+    "id": "65",
+    "name": "resetnicknameall",
+    "description": "Resets the nicknames of all server members.",
+    "category": "Moderation",
+    "usage": "resetnicknameall"
+  },
+  {
+    "id": "66",
+    "name": "editsnipe",
+    "description": "Retrieve the most recently edited message in this server.",
+    "category": "Snipe",
+    "usage": "editsnipe"
+  },
+  {
+    "id": "69",
+    "name": "reactionsnipe",
+    "description": "Retrieve the most recently deleted reaction in this server.",
+    "category": "Snipe",
+    "usage": "reactionsnipe"
+  },
+  {
+    "id": "70",
+    "name": "nicknameall",
+    "description": "Changes the nickname of all server members.",
+    "category": "Moderation",
+    "usage": "nicknameall [nickname]"
+  },
+  {
+    "id": "71",
+    "name": "timeout",
+    "description": "Time a user out.",
+    "category": "Moderation",
+    "usage": "timeout [user] (time) (reason)"
+  },
+  {
+    "id": "72",
+    "name": "membercount",
+    "description": "Get the member count of the server.",
+    "category": "Information",
+    "usage": "membercount"
+  },
+  {
+    "id": "74",
+    "name": "snipe",
+    "description": "Retrieve the most recently deleted message in this server.",
+    "category": "Snipe",
+    "usage": "snipe"
+  },
+  {
+    "id": "76",
+    "name": "untimeout",
+    "description": "Remove a timeout from a user.",
+    "category": "Moderation",
+    "usage": "untimeout [user] (reason)"
+  },
+  {
+    "id": "77",
+    "name": "bots",
+    "description": "List all bots in the server",
+    "category": "Information",
+    "usage": "bots"
+  },
+  {
+    "id": "78",
+    "name": "shazam",
+    "description": "Get a song from an audio/video using shazam.",
+    "category": "Utility",
+    "usage": "shazam [video/audio]"
+  },
+  {
+    "id": "79",
+    "name": "balance",
+    "description": "Check your economy balance.",
+    "category": "Economy",
+    "usage": "balance"
+  },
+  {
+    "id": "81",
+    "name": "hide",
+    "description": "Hides a specified channel from everyone.",
+    "category": "Moderation",
+    "usage": "hide (channel)"
+  },
+  {
+    "id": "82",
+    "name": "play",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "play [query]"
+  },
+  {
+    "id": "83",
+    "name": "referral",
+    "description": "Get your referral code.",
+    "category": "Economy",
+    "usage": "referral"
+  },
+  {
+    "id": "84",
+    "name": "swap",
+    "description": "Check the bot's swap memory usage.",
+    "category": "Information",
+    "usage": "swap"
+  },
+  {
+    "id": "86",
+    "name": "reactiongame",
+    "description": "Play a game of reactionspeed!",
+    "category": "Games",
+    "usage": "reactiongame"
+  },
+  {
+    "id": "87",
+    "name": "textonly",
+    "description": "Restrict users from sending images.",
+    "category": "Moderation",
+    "usage": "textonly (channel)"
+  },
+  {
+    "id": "89",
+    "name": "diskio",
+    "description": "Check the bot's disk I/O statistics.",
+    "category": "Information",
+    "usage": "diskio"
+  },
+  {
+    "id": "90",
+    "name": "auditlogs",
+    "description": "Retrieve the audit logs.",
+    "category": "Moderation",
+    "usage": "auditlogs"
+  },
+  {
+    "id": "91",
+    "name": "tictactoe",
+    "description": "Play tictactoe with a buddy.",
+    "category": "Games",
+    "usage": "tictactoe [user]"
+  },
+  {
+    "id": "92",
+    "name": "resetnickname",
+    "description": "Resets a user's nickname.",
+    "category": "Moderation",
+    "usage": "resetnickname [member]"
+  },
+  {
+    "id": "93",
+    "name": "network",
+    "description": "Check the bot's network usage.",
+    "category": "Information",
+    "usage": "network"
+  },
+  {
+    "id": "94",
+    "name": "skip",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "skip"
+  },
+  {
+    "id": "96",
+    "name": "beg",
+    "description": "Beg for money.",
+    "category": "Economy",
+    "usage": "beg"
+  },
+  {
+    "id": "97",
+    "name": "pause",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "pause"
+  },
+  {
+    "id": "98",
+    "name": "disk",
+    "description": "Check the bot's disk usage.",
+    "category": "Information",
+    "usage": "disk"
+  },
+  {
+    "id": "99",
+    "name": "unhide",
+    "description": "Makes a hidden channel visible to everyone.",
+    "category": "Moderation",
+    "usage": "unhide (channel)"
+  },
+  {
+    "id": "101",
+    "name": "work",
+    "description": "Work to earn money.",
+    "category": "Economy",
+    "usage": "work"
+  },
+  {
+    "id": "102",
+    "name": "resume",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "resume"
+  },
+  {
+    "id": "103",
+    "name": "add_money",
+    "description": "No description provided",
+    "category": "Economy",
+    "usage": "add_money"
+  },
+  {
+    "id": "104",
+    "name": "threads",
+    "description": "Check the bot's active threads.",
+    "category": "Information",
+    "usage": "threads"
+  },
+  {
+    "id": "105",
+    "name": "unbanall",
+    "description": "Unban all users that have been banned from the server.",
+    "category": "Moderation",
+    "usage": "unbanall"
+  },
+  {
+    "id": "106",
+    "name": "daily",
+    "description": "Claim your daily reward.",
+    "category": "Economy",
+    "usage": "daily"
+  },
+  {
+    "id": "107",
+    "name": "nickname",
+    "description": "Changes a user's nickname",
+    "category": "Moderation",
+    "usage": "nickname [member] [nickname]"
+  },
+  {
+    "id": "109",
+    "name": "ram",
+    "description": "Check the bot's RAM usage.",
+    "category": "Information",
+    "usage": "ram"
+  },
+  {
+    "id": "110",
+    "name": "lock",
+    "description": "Lock a channel.",
+    "category": "Moderation",
+    "usage": "lock (channel)"
+  },
+  {
+    "id": "111",
+    "name": "weekly",
+    "description": "Claim your weekly reward.",
+    "category": "Economy",
+    "usage": "weekly"
+  },
+  {
+    "id": "112",
+    "name": "memory",
+    "description": "Check the bot's memory usage.",
+    "category": "Information",
+    "usage": "memory"
+  }
+]
