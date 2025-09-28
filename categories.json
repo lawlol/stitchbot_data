@@ -1,11 +1,8 @@
 [
-  "AntiNuke",
   "AutoRole",
   "Configuration",
   "Dispatcher",
   "Economy",
-  "EmbedBuilder",
-  "Events",
   "Fun",
   "Games",
   "Help",
@@ -15,8 +12,6 @@
   "Music",
   "Snipe",
   "Social",
-  "TempMail",
   "Utility",
-  "Vanity",
   "Welcome"
 ]
