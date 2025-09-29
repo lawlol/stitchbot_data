@@ -8,24 +8,24 @@
   },
   {
     "id": "2",
+    "name": "welcome",
+    "description": "Welcome-related commands!",
+    "category": "Welcome",
+    "usage": "welcome"
+  },
+  {
+    "id": "3",
     "name": "help",
     "description": "Retrieve the list of commands.",
     "category": "Help",
     "usage": "help (command)"
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "autorole",
     "description": "Auto-role-related commands!",
     "category": "AutoRole",
     "usage": "autorole"
-  },
-  {
-    "id": "4",
-    "name": "reactionsnipe",
-    "description": "Retrieve the most recently deleted reaction in this server.",
-    "category": "Snipe",
-    "usage": "reactionsnipe"
   },
   {
     "id": "5",
@@ -43,59 +43,52 @@
   },
   {
     "id": "7",
-    "name": "invite",
-    "description": "Invite group | Get bot invite.",
-    "category": "Information",
-    "usage": "invite"
-  },
-  {
-    "id": "8",
     "name": "transfer",
     "description": "Transfer money to another user.",
     "category": "Economy",
     "usage": "transfer"
   },
   {
-    "id": "9",
-    "name": "autoresponder",
-    "description": "Manage auto responses",
-    "category": "Utility",
-    "usage": "autoresponder"
-  },
-  {
-    "id": "10",
+    "id": "8",
     "name": "withdraw",
     "description": "Withdraw money from your bank.",
     "category": "Economy",
     "usage": "withdraw"
   },
   {
-    "id": "11",
-    "name": "speak",
-    "description": "Make stitch say something.",
-    "category": "Utility",
-    "usage": "speak [word(s)]"
-  },
-  {
-    "id": "12",
-    "name": "isprime",
-    "description": "Check if a number is prime.",
-    "category": "Utility",
-    "usage": "isprime [number]"
-  },
-  {
-    "id": "13",
+    "id": "9",
     "name": "deposit",
     "description": "Deposit money into your bank.",
     "category": "Economy",
     "usage": "deposit"
   },
   {
-    "id": "14",
+    "id": "10",
+    "name": "autoresponder",
+    "description": "Manage auto responses",
+    "category": "Utility",
+    "usage": "autoresponder"
+  },
+  {
+    "id": "11",
     "name": "monthly",
     "description": "Claim your monthly reward.",
     "category": "Economy",
     "usage": "monthly"
+  },
+  {
+    "id": "12",
+    "name": "speak",
+    "description": "Make stitch say something.",
+    "category": "Utility",
+    "usage": "speak [word(s)]"
+  },
+  {
+    "id": "14",
+    "name": "isprime",
+    "description": "Check if a number is prime.",
+    "category": "Utility",
+    "usage": "isprime [number]"
   },
   {
     "id": "15",
@@ -112,137 +105,123 @@
     "usage": "daily"
   },
   {
-    "id": "18",
+    "id": "17",
     "name": "add_money",
     "description": "No description provided",
     "category": "Economy",
     "usage": "add_money"
   },
   {
-    "id": "19",
+    "id": "18",
     "name": "work",
     "description": "Work to earn money.",
     "category": "Economy",
     "usage": "work"
   },
   {
-    "id": "20",
+    "id": "19",
     "name": "beg",
     "description": "Beg for money.",
     "category": "Economy",
     "usage": "beg"
   },
   {
-    "id": "21",
+    "id": "20",
     "name": "anilist",
     "description": "Lookup an anime using Anilist.",
     "category": "Social",
     "usage": "anilist [title]"
   },
   {
-    "id": "22",
+    "id": "21",
     "name": "balance",
     "description": "Check your economy balance.",
     "category": "Economy",
     "usage": "balance"
   },
   {
-    "id": "23",
+    "id": "22",
     "name": "referral",
     "description": "Get your referral code.",
     "category": "Economy",
     "usage": "referral"
   },
   {
-    "id": "24",
-    "name": "welcome",
-    "description": "Welcome-related commands!",
-    "category": "Welcome",
-    "usage": "welcome"
-  },
-  {
-    "id": "25",
-    "name": "codechallenge",
-    "description": "Challenge yourself to a game of code!",
-    "category": "Fun",
-    "usage": "codechallenge (language defaults to python) [level]"
-  },
-  {
-    "id": "26",
-    "name": "social",
-    "description": "Social group.",
-    "category": "Social",
-    "usage": "social"
-  },
-  {
-    "id": "27",
+    "id": "23",
     "name": "vanityrole",
     "description": "Vanity-role-related commands!",
     "category": "Configuration",
     "usage": "vanityrole"
   },
   {
-    "id": "29",
-    "name": "serverunblacklist",
-    "description": "Revoke a server-specific blacklist on a user.",
-    "category": "Moderation",
-    "usage": "serverunblacklist [user]"
+    "id": "24",
+    "name": "codechallenge",
+    "description": "Challenge yourself to a game of code!",
+    "category": "Fun",
+    "usage": "codechallenge (language defaults to python) [level]"
   },
   {
-    "id": "30",
-    "name": "purchase",
-    "description": "Purchase an item.",
-    "category": "Economy",
-    "usage": "purchase"
+    "id": "25",
+    "name": "social",
+    "description": "Social group.",
+    "category": "Social",
+    "usage": "social"
   },
   {
-    "id": "32",
+    "id": "28",
     "name": "timeout",
     "description": "Time a user out.",
     "category": "Moderation",
     "usage": "timeout [user] (time) (reason)"
   },
   {
-    "id": "33",
+    "id": "29",
+    "name": "purchase",
+    "description": "Purchase an item.",
+    "category": "Economy",
+    "usage": "purchase"
+  },
+  {
+    "id": "30",
+    "name": "serverunblacklist",
+    "description": "Revoke a server-specific blacklist on a user.",
+    "category": "Moderation",
+    "usage": "serverunblacklist [user]"
+  },
+  {
+    "id": "31",
+    "name": "untimeout",
+    "description": "Remove a timeout from a user.",
+    "category": "Moderation",
+    "usage": "untimeout [user] (reason)"
+  },
+  {
+    "id": "34",
     "name": "unregister",
     "description": "Unregister from economy commands.",
     "category": "Economy",
     "usage": "unregister"
   },
   {
-    "id": "34",
+    "id": "35",
+    "name": "hide",
+    "description": "Hides a specified channel from everyone.",
+    "category": "Moderation",
+    "usage": "hide (channel)"
+  },
+  {
+    "id": "36",
     "name": "user",
     "description": "User group",
     "category": "Information",
     "usage": "user"
   },
   {
-    "id": "35",
-    "name": "serverblacklist",
-    "description": "Restrict a user from using the bot in this server.",
-    "category": "Moderation",
-    "usage": "serverblacklist [user]"
-  },
-  {
-    "id": "36",
+    "id": "37",
     "name": "emojisteal",
     "description": "Take emoji's from another server into yours",
     "category": "Utility",
     "usage": "emojisteal [emoji(s)]"
-  },
-  {
-    "id": "37",
-    "name": "support",
-    "description": "Get the link for the support server",
-    "category": "Information",
-    "usage": "support"
-  },
-  {
-    "id": "38",
-    "name": "untimeout",
-    "description": "Remove a timeout from a user.",
-    "category": "Moderation",
-    "usage": "untimeout [user] (reason)"
   },
   {
     "id": "39",
@@ -252,46 +231,53 @@
     "usage": "register"
   },
   {
-    "id": "41",
-    "name": "crypto",
-    "description": "Manage your cryptocurrency balances.",
-    "category": "Economy",
-    "usage": "crypto"
-  },
-  {
-    "id": "42",
-    "name": "firstmessage",
-    "description": "Retrieve the first message in a channel",
+    "id": "40",
+    "name": "support",
+    "description": "Get the link for the support server",
     "category": "Information",
-    "usage": "firstmessage (channel)"
+    "usage": "support"
   },
   {
-    "id": "44",
-    "name": "hide",
-    "description": "Hides a specified channel from everyone.",
-    "category": "Moderation",
-    "usage": "hide (channel)"
-  },
-  {
-    "id": "45",
+    "id": "41",
     "name": "textonly",
     "description": "Restrict users from sending images.",
     "category": "Moderation",
     "usage": "textonly (channel)"
   },
   {
-    "id": "47",
+    "id": "42",
+    "name": "crypto",
+    "description": "Manage your cryptocurrency balances.",
+    "category": "Economy",
+    "usage": "crypto"
+  },
+  {
+    "id": "44",
+    "name": "firstmessage",
+    "description": "Retrieve the first message in a channel",
+    "category": "Information",
+    "usage": "firstmessage (channel)"
+  },
+  {
+    "id": "45",
     "name": "auditlogs",
     "description": "Retrieve the audit logs.",
     "category": "Moderation",
     "usage": "auditlogs"
   },
   {
-    "id": "49",
+    "id": "47",
     "name": "resetnickname",
     "description": "Resets a user's nickname.",
     "category": "Moderation",
     "usage": "resetnickname [member]"
+  },
+  {
+    "id": "49",
+    "name": "unhide",
+    "description": "Makes a hidden channel visible to everyone.",
+    "category": "Moderation",
+    "usage": "unhide (channel)"
   },
   {
     "id": "50",
@@ -301,116 +287,123 @@
     "usage": "tempmail"
   },
   {
-    "id": "52",
-    "name": "unhide",
-    "description": "Makes a hidden channel visible to everyone.",
-    "category": "Moderation",
-    "usage": "unhide (channel)"
-  },
-  {
-    "id": "54",
+    "id": "51",
     "name": "lock",
     "description": "Lock a channel.",
     "category": "Moderation",
     "usage": "lock (channel)"
   },
   {
-    "id": "56",
+    "id": "54",
     "name": "nickname",
     "description": "Changes a user's nickname",
     "category": "Moderation",
     "usage": "nickname [member] [nickname]"
   },
   {
-    "id": "57",
+    "id": "56",
     "name": "nicknameall",
     "description": "Changes the nickname of all server members.",
     "category": "Moderation",
     "usage": "nicknameall [nickname]"
   },
   {
-    "id": "60",
+    "id": "58",
     "name": "unbanall",
     "description": "Unban all users that have been banned from the server.",
     "category": "Moderation",
     "usage": "unbanall"
   },
   {
-    "id": "62",
+    "id": "60",
     "name": "resetnicknameall",
     "description": "Resets the nicknames of all server members.",
     "category": "Moderation",
     "usage": "resetnicknameall"
   },
   {
-    "id": "63",
+    "id": "62",
     "name": "prefix",
     "description": "View the prefix for the server.",
     "category": "Configuration",
     "usage": "prefix"
   },
   {
-    "id": "64",
+    "id": "63",
     "name": "softban",
     "description": "Softban a user from the server.",
     "category": "Moderation",
     "usage": "softban [user/id] (reason)"
   },
   {
-    "id": "66",
+    "id": "64",
     "name": "reactiongame",
     "description": "Play a game of reactionspeed!",
     "category": "Games",
     "usage": "reactiongame"
   },
   {
-    "id": "67",
+    "id": "65",
     "name": "ban",
     "description": "Ban a user from the server.",
     "category": "Moderation",
     "usage": "ban [user] (reason)"
   },
   {
-    "id": "68",
+    "id": "66",
     "name": "unban",
     "description": "Unban a user from the server.",
     "category": "Moderation",
     "usage": "unban [user_id]"
   },
   {
-    "id": "69",
-    "name": "server",
-    "description": "Server group",
-    "category": "Information",
-    "usage": "server"
-  },
-  {
-    "id": "70",
+    "id": "67",
     "name": "tictactoe",
     "description": "Play tictactoe with a buddy.",
     "category": "Games",
     "usage": "tictactoe [user]"
   },
   {
-    "id": "71",
+    "id": "68",
     "name": "antinuke",
     "description": "AntiNuke-related commands!",
     "category": "Configuration",
     "usage": "antinuke"
   },
   {
-    "id": "72",
+    "id": "69",
+    "name": "lockdown",
+    "description": "Lock down the server.",
+    "category": "Moderation",
+    "usage": "lockdown"
+  },
+  {
+    "id": "70",
+    "name": "server",
+    "description": "Server group",
+    "category": "Information",
+    "usage": "server"
+  },
+  {
+    "id": "71",
     "name": "botinfo",
     "description": "Retrieve information about the bot.",
     "category": "Information",
     "usage": "botinfo"
   },
   {
-    "id": "73",
-    "name": "lockdown",
-    "description": "Lock down the server.",
+    "id": "72",
+    "name": "unlock",
+    "description": "Unlock a channel.",
     "category": "Moderation",
-    "usage": "lockdown"
+    "usage": "unlock (channel)"
+  },
+  {
+    "id": "73",
+    "name": "slowmode",
+    "description": "Set the slowmode for a channel.",
+    "category": "Moderation",
+    "usage": "slowmode (channel) (time)"
   },
   {
     "id": "74",
@@ -421,45 +414,52 @@
   },
   {
     "id": "75",
-    "name": "unlock",
-    "description": "Unlock a channel.",
-    "category": "Moderation",
-    "usage": "unlock (channel)"
-  },
-  {
-    "id": "76",
-    "name": "slowmode",
-    "description": "Set the slowmode for a channel.",
-    "category": "Moderation",
-    "usage": "slowmode (channel) (time)"
-  },
-  {
-    "id": "78",
-    "name": "membercount",
-    "description": "Get the member count of the server.",
-    "category": "Information",
-    "usage": "membercount"
-  },
-  {
-    "id": "79",
     "name": "createrole",
     "description": "Create a role.",
     "category": "Moderation",
     "usage": "createrole [name] (color HEX)"
   },
   {
-    "id": "80",
+    "id": "76",
+    "name": "imagemute",
+    "description": "Block or un-block a user from sending images.",
+    "category": "Moderation",
+    "usage": "imagemute [user]"
+  },
+  {
+    "id": "77",
+    "name": "membercount",
+    "description": "Get the member count of the server.",
+    "category": "Information",
+    "usage": "membercount"
+  },
+  {
+    "id": "78",
+    "name": "role",
+    "description": "Add or remove a role from a user.",
+    "category": "Moderation",
+    "usage": "role [user] [role/roleid]"
+  },
+  {
+    "id": "79",
     "name": "bots",
     "description": "List all bots in the server",
     "category": "Information",
     "usage": "bots"
   },
   {
-    "id": "81",
-    "name": "imagemute",
-    "description": "Block or un-block a user from sending images.",
+    "id": "80",
+    "name": "banlist",
+    "description": "View the list of banned users in the server",
     "category": "Moderation",
-    "usage": "imagemute [user]"
+    "usage": "banlist"
+  },
+  {
+    "id": "81",
+    "name": "purge",
+    "description": "No description provided",
+    "category": "Moderation",
+    "usage": "purge (user) [amount]"
   },
   {
     "id": "82",
@@ -470,66 +470,66 @@
   },
   {
     "id": "83",
-    "name": "role",
-    "description": "Add or remove a role from a user.",
-    "category": "Moderation",
-    "usage": "role [user] [role/roleid]"
+    "name": "tiktok",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "tiktok"
   },
   {
     "id": "84",
-    "name": "editsnipe",
-    "description": "Retrieve the most recently edited message in this server.",
-    "category": "Snipe",
-    "usage": "editsnipe"
-  },
-  {
-    "id": "85",
     "name": "diskio",
     "description": "Check the bot's disk I/O statistics.",
     "category": "Information",
     "usage": "diskio"
   },
   {
-    "id": "86",
-    "name": "banlist",
-    "description": "View the list of banned users in the server",
-    "category": "Moderation",
-    "usage": "banlist"
-  },
-  {
-    "id": "87",
+    "id": "85",
     "name": "shazam",
     "description": "Get a song from an audio/video using shazam.",
     "category": "Utility",
     "usage": "shazam [video/audio]"
   },
   {
-    "id": "88",
-    "name": "purge",
-    "description": "No description provided",
-    "category": "Moderation",
-    "usage": "purge (user) [amount]"
-  },
-  {
-    "id": "89",
+    "id": "86",
     "name": "network",
     "description": "Check the bot's network usage.",
     "category": "Information",
     "usage": "network"
   },
   {
-    "id": "90",
+    "id": "87",
+    "name": "move",
+    "description": "Move a user to another voice channel.",
+    "category": "Moderation",
+    "usage": "move [user] [voice_channel]"
+  },
+  {
+    "id": "88",
+    "name": "disconnect",
+    "description": "Disconnect a user from the voice channel.",
+    "category": "Moderation",
+    "usage": "disconnect [user]"
+  },
+  {
+    "id": "89",
     "name": "disk",
     "description": "Check the bot's disk usage.",
     "category": "Information",
     "usage": "disk"
   },
   {
+    "id": "90",
+    "name": "nsfw",
+    "description": "Toggle the NSFW of a channel.",
+    "category": "Moderation",
+    "usage": "nsfw [on/off] (channel)"
+  },
+  {
     "id": "91",
-    "name": "tiktok",
+    "name": "selfpurge",
     "description": "No description provided",
-    "category": "Social",
-    "usage": "tiktok"
+    "category": "Moderation",
+    "usage": "selfpurge (amount)"
   },
   {
     "id": "92",
@@ -540,38 +540,38 @@
   },
   {
     "id": "93",
-    "name": "move",
-    "description": "Move a user to another voice channel.",
-    "category": "Moderation",
-    "usage": "move [user] [voice_channel]"
+    "name": "vanity",
+    "description": "Check if a vanity is available",
+    "category": "Information",
+    "usage": "vanity [vanity]"
   },
   {
     "id": "94",
-    "name": "disconnect",
-    "description": "Disconnect a user from the voice channel.",
+    "name": "kick",
+    "description": "Kick a user from the server.",
     "category": "Moderation",
-    "usage": "disconnect [user]"
+    "usage": "kick [user/id] (reason)"
   },
   {
     "id": "95",
-    "name": "nsfw",
-    "description": "Toggle the NSFW of a channel.",
-    "category": "Moderation",
-    "usage": "nsfw [on/off] (channel)"
-  },
-  {
-    "id": "96",
     "name": "ram",
     "description": "Check the bot's RAM usage.",
     "category": "Information",
     "usage": "ram"
   },
   {
+    "id": "96",
+    "name": "snipe",
+    "description": "Retrieve the most recently deleted message in this server.",
+    "category": "Snipe",
+    "usage": "snipe"
+  },
+  {
     "id": "97",
-    "name": "selfpurge",
-    "description": "No description provided",
+    "name": "roleall",
+    "description": "Add a role to every user in the server.",
     "category": "Moderation",
-    "usage": "selfpurge (amount)"
+    "usage": "roleall [role]"
   },
   {
     "id": "98",
@@ -582,17 +582,17 @@
   },
   {
     "id": "99",
-    "name": "vanity",
-    "description": "Check if a vanity is available",
-    "category": "Information",
-    "usage": "vanity [vanity]"
+    "name": "nuke",
+    "description": "Fully clear the channel.",
+    "category": "Moderation",
+    "usage": "nuke"
   },
   {
     "id": "100",
-    "name": "kick",
-    "description": "Kick a user from the server.",
-    "category": "Moderation",
-    "usage": "kick [user/id] (reason)"
+    "name": "reactionsnipe",
+    "description": "Retrieve the most recently deleted reaction in this server.",
+    "category": "Snipe",
+    "usage": "reactionsnipe"
   },
   {
     "id": "101",
@@ -603,23 +603,23 @@
   },
   {
     "id": "102",
-    "name": "snipe",
-    "description": "Retrieve the most recently deleted message in this server.",
-    "category": "Snipe",
-    "usage": "snipe"
+    "name": "serverblacklist",
+    "description": "Restrict a user from using the bot in this server.",
+    "category": "Moderation",
+    "usage": "serverblacklist [user]"
   },
   {
     "id": "103",
-    "name": "roleall",
-    "description": "Add a role to every user in the server.",
-    "category": "Moderation",
-    "usage": "roleall [role]"
+    "name": "editsnipe",
+    "description": "Retrieve the most recently edited message in this server.",
+    "category": "Snipe",
+    "usage": "editsnipe"
   },
   {
     "id": "104",
-    "name": "nuke",
-    "description": "Fully clear the channel.",
-    "category": "Moderation",
-    "usage": "nuke"
+    "name": "invite",
+    "description": "Invite group | Get bot invite.",
+    "category": "Information",
+    "usage": "invite"
   }
 ]
