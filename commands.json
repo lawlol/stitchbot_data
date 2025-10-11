@@ -1,80 +1,87 @@
 [
   {
     "id": "1",
-    "name": "help",
-    "description": "Retrieve the list of commands.",
-    "category": "Help",
-    "usage": "help (command)"
+    "name": "memory",
+    "description": "Check the bot's memory usage.",
+    "category": "Information",
+    "usage": "memory"
   },
   {
     "id": "2",
-    "name": "timeout",
-    "description": "Time a user out.",
-    "category": "Moderation",
-    "usage": "timeout [user] (time) (reason)"
+    "name": "ram",
+    "description": "Check the bot's RAM usage.",
+    "category": "Information",
+    "usage": "ram"
   },
   {
     "id": "3",
+    "name": "threads",
+    "description": "Check the bot's active threads.",
+    "category": "Information",
+    "usage": "threads"
+  },
+  {
+    "id": "4",
+    "name": "disk",
+    "description": "Check the bot's disk usage.",
+    "category": "Information",
+    "usage": "disk"
+  },
+  {
+    "id": "5",
+    "name": "clear",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "clear"
+  },
+  {
+    "id": "6",
     "name": "snipe",
     "description": "Retrieve the most recently deleted message in this server.",
     "category": "Snipe",
     "usage": "snipe"
   },
   {
-    "id": "4",
-    "name": "untimeout",
-    "description": "Remove a timeout from a user.",
-    "category": "Moderation",
-    "usage": "untimeout [user] (reason)"
-  },
-  {
-    "id": "5",
-    "name": "reactionsnipe",
-    "description": "Retrieve the most recently deleted reaction in this server.",
-    "category": "Snipe",
-    "usage": "reactionsnipe"
-  },
-  {
-    "id": "6",
-    "name": "hide",
-    "description": "Hides a specified channel from everyone.",
-    "category": "Moderation",
-    "usage": "hide (channel)"
-  },
-  {
     "id": "7",
-    "name": "textonly",
-    "description": "Restrict users from sending images.",
-    "category": "Moderation",
-    "usage": "textonly (channel)"
+    "name": "network",
+    "description": "Check the bot's network usage.",
+    "category": "Information",
+    "usage": "network"
   },
   {
     "id": "8",
-    "name": "editsnipe",
-    "description": "Retrieve the most recently edited message in this server.",
-    "category": "Snipe",
-    "usage": "editsnipe"
+    "name": "emojisteal",
+    "description": "Take emoji's from another server into yours",
+    "category": "Utility",
+    "usage": "emojisteal [emoji(s)]"
   },
   {
     "id": "9",
+    "name": "diskio",
+    "description": "Check the bot's disk I/O statistics.",
+    "category": "Information",
+    "usage": "diskio"
+  },
+  {
+    "id": "10",
     "name": "transfer",
     "description": "Transfer money to another user.",
     "category": "Economy",
     "usage": "transfer"
   },
   {
-    "id": "10",
-    "name": "auditlogs",
-    "description": "Retrieve the audit logs.",
-    "category": "Moderation",
-    "usage": "auditlogs"
+    "id": "11",
+    "name": "swap",
+    "description": "Check the bot's swap memory usage.",
+    "category": "Information",
+    "usage": "swap"
   },
   {
-    "id": "11",
-    "name": "resetnickname",
-    "description": "Resets a user's nickname.",
-    "category": "Moderation",
-    "usage": "resetnickname [member]"
+    "id": "12",
+    "name": "shazam",
+    "description": "Get a song from an audio/video using shazam.",
+    "category": "Utility",
+    "usage": "shazam [video/audio]"
   },
   {
     "id": "13",
@@ -85,34 +92,55 @@
   },
   {
     "id": "14",
-    "name": "shazam",
-    "description": "Get a song from an audio/video using shazam.",
+    "name": "bots",
+    "description": "List all bots in the server",
+    "category": "Information",
+    "usage": "bots"
+  },
+  {
+    "id": "15",
+    "name": "tempmail",
+    "description": "TempMail-related commands!",
     "category": "Utility",
-    "usage": "shazam [video/audio]"
+    "usage": "tempmail"
   },
   {
     "id": "16",
-    "name": "unhide",
-    "description": "Makes a hidden channel visible to everyone.",
-    "category": "Moderation",
-    "usage": "unhide (channel)"
+    "name": "tempmail generate",
+    "description": "Generate a temporary email account.",
+    "category": "Utility",
+    "usage": "tempmail generate (password)"
   },
   {
     "id": "17",
+    "name": "tempmail read",
+    "description": "Read the messages from a temporary email account.",
+    "category": "Utility",
+    "usage": "tempmail read [temp_mail]"
+  },
+  {
+    "id": "18",
+    "name": "tempmail delete",
+    "description": "Delete one of your temporary emails.",
+    "category": "Utility",
+    "usage": "tempmail delete [temp_mail]"
+  },
+  {
+    "id": "19",
     "name": "deposit",
     "description": "Deposit money into your bank.",
     "category": "Economy",
     "usage": "deposit"
   },
   {
-    "id": "18",
-    "name": "nickname",
-    "description": "Changes a user's nickname",
-    "category": "Moderation",
-    "usage": "nickname [member] [nickname]"
+    "id": "20",
+    "name": "membercount",
+    "description": "Get the member count of the server.",
+    "category": "Information",
+    "usage": "membercount"
   },
   {
-    "id": "20",
+    "id": "21",
     "name": "monthly",
     "description": "Claim your monthly reward.",
     "category": "Economy",
@@ -120,576 +148,1311 @@
   },
   {
     "id": "22",
-    "name": "weekly",
-    "description": "Claim your weekly reward.",
-    "category": "Economy",
-    "usage": "weekly"
-  },
-  {
-    "id": "24",
-    "name": "unbanall",
-    "description": "Unban all users that have been banned from the server.",
-    "category": "Moderation",
-    "usage": "unbanall"
-  },
-  {
-    "id": "25",
-    "name": "daily",
-    "description": "Claim your daily reward.",
-    "category": "Economy",
-    "usage": "daily"
-  },
-  {
-    "id": "26",
-    "name": "resetnicknameall",
-    "description": "Resets the nicknames of all server members.",
-    "category": "Moderation",
-    "usage": "resetnicknameall"
-  },
-  {
-    "id": "27",
-    "name": "add_money",
-    "description": "No description provided",
-    "category": "Economy",
-    "usage": "add_money"
-  },
-  {
-    "id": "28",
-    "name": "lock",
-    "description": "Lock a channel.",
-    "category": "Moderation",
-    "usage": "lock (channel)"
-  },
-  {
-    "id": "30",
-    "name": "work",
-    "description": "Work to earn money.",
-    "category": "Economy",
-    "usage": "work"
-  },
-  {
-    "id": "31",
-    "name": "embed",
-    "description": "Embed group.",
-    "category": "Utility",
-    "usage": "embed"
-  },
-  {
-    "id": "32",
     "name": "prefix",
     "description": "View the prefix for the server.",
     "category": "Configuration",
     "usage": "prefix"
   },
   {
-    "id": "33",
-    "name": "softban",
-    "description": "Softban a user from the server.",
-    "category": "Moderation",
-    "usage": "softban [user/id] (reason)"
-  },
-  {
-    "id": "34",
-    "name": "beg",
-    "description": "Beg for money.",
-    "category": "Economy",
-    "usage": "beg"
-  },
-  {
-    "id": "35",
-    "name": "reactiongame",
-    "description": "Play a game of reactionspeed!",
-    "category": "Games",
-    "usage": "reactiongame"
-  },
-  {
-    "id": "36",
-    "name": "nicknameall",
-    "description": "Changes the nickname of all server members.",
-    "category": "Moderation",
-    "usage": "nicknameall [nickname]"
-  },
-  {
-    "id": "39",
-    "name": "ban",
-    "description": "Ban a user from the server.",
-    "category": "Moderation",
-    "usage": "ban [user] (reason)"
-  },
-  {
-    "id": "41",
-    "name": "tictactoe",
-    "description": "Play tictactoe with a buddy.",
-    "category": "Games",
-    "usage": "tictactoe [user]"
-  },
-  {
-    "id": "42",
-    "name": "unban",
-    "description": "Unban a user from the server.",
-    "category": "Moderation",
-    "usage": "unban [user_id]"
-  },
-  {
-    "id": "43",
-    "name": "antinuke",
-    "description": "AntiNuke-related commands!",
+    "id": "23",
+    "name": "prefix set",
+    "description": "Set a custom prefix only for the server.",
     "category": "Configuration",
-    "usage": "antinuke"
+    "usage": "prefix set [prefix]"
   },
   {
-    "id": "45",
-    "name": "balance",
-    "description": "Check your economy balance.",
-    "category": "Economy",
-    "usage": "balance"
-  },
-  {
-    "id": "46",
-    "name": "referral",
-    "description": "Get your referral code.",
-    "category": "Economy",
-    "usage": "referral"
-  },
-  {
-    "id": "47",
-    "name": "leave",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "leave"
-  },
-  {
-    "id": "48",
-    "name": "tiktok",
-    "description": "No description provided",
-    "category": "Social",
-    "usage": "tiktok"
-  },
-  {
-    "id": "49",
-    "name": "lockdown",
-    "description": "Lock down the server.",
-    "category": "Moderation",
-    "usage": "lockdown"
-  },
-  {
-    "id": "51",
-    "name": "shuffle",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "shuffle"
-  },
-  {
-    "id": "53",
-    "name": "unlock",
-    "description": "Unlock a channel.",
-    "category": "Moderation",
-    "usage": "unlock (channel)"
-  },
-  {
-    "id": "54",
-    "name": "volume",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "volume <percentage>"
-  },
-  {
-    "id": "55",
-    "name": "slowmode",
-    "description": "Set the slowmode for a channel.",
-    "category": "Moderation",
-    "usage": "slowmode (channel) (time)"
-  },
-  {
-    "id": "56",
-    "name": "resume",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "resume"
-  },
-  {
-    "id": "57",
-    "name": "createrole",
-    "description": "Create a role.",
-    "category": "Moderation",
-    "usage": "createrole [name] (color HEX)"
-  },
-  {
-    "id": "58",
-    "name": "pause",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "pause"
-  },
-  {
-    "id": "59",
-    "name": "imagemute",
-    "description": "Block or un-block a user from sending images.",
-    "category": "Moderation",
-    "usage": "imagemute [user]"
-  },
-  {
-    "id": "60",
-    "name": "skip",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "skip"
-  },
-  {
-    "id": "61",
-    "name": "roleplay",
-    "description": "No description provided",
-    "category": "Roleplay",
-    "usage": "roleplay"
-  },
-  {
-    "id": "62",
-    "name": "role",
-    "description": "Add or remove a role from a user.",
-    "category": "Moderation",
-    "usage": "role [user] [role/roleid]"
-  },
-  {
-    "id": "63",
-    "name": "banlist",
-    "description": "View the list of banned users in the server",
-    "category": "Moderation",
-    "usage": "banlist"
-  },
-  {
-    "id": "64",
-    "name": "purge",
-    "description": "No description provided",
-    "category": "Moderation",
-    "usage": "purge (user) [amount]"
-  },
-  {
-    "id": "65",
-    "name": "isprime",
-    "description": "Check if a number is prime.",
-    "category": "Utility",
-    "usage": "isprime [number]"
-  },
-  {
-    "id": "66",
-    "name": "play",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "play [query]"
-  },
-  {
-    "id": "67",
-    "name": "speak",
-    "description": "Make stitch say something.",
-    "category": "Utility",
-    "usage": "speak [word(s)]"
-  },
-  {
-    "id": "68",
-    "name": "autoresponder",
-    "description": "Manage auto responses",
-    "category": "Utility",
-    "usage": "autoresponder"
-  },
-  {
-    "id": "69",
-    "name": "disconnect",
-    "description": "Disconnect a user from the voice channel.",
-    "category": "Moderation",
-    "usage": "disconnect [user]"
-  },
-  {
-    "id": "70",
-    "name": "selfpurge",
-    "description": "No description provided",
-    "category": "Moderation",
-    "usage": "selfpurge (amount)"
-  },
-  {
-    "id": "71",
-    "name": "autorole",
-    "description": "Auto-role-related commands!",
-    "category": "AutoRole",
-    "usage": "autorole"
-  },
-  {
-    "id": "72",
-    "name": "nsfw",
-    "description": "Toggle the NSFW of a channel.",
-    "category": "Moderation",
-    "usage": "nsfw [on/off] (channel)"
-  },
-  {
-    "id": "73",
-    "name": "move",
-    "description": "Move a user to another voice channel.",
-    "category": "Moderation",
-    "usage": "move [user] [voice_channel]"
-  },
-  {
-    "id": "74",
-    "name": "kick",
-    "description": "Kick a user from the server.",
-    "category": "Moderation",
-    "usage": "kick [user/id] (reason)"
-  },
-  {
-    "id": "75",
-    "name": "google",
-    "description": "Google-related commands!",
-    "category": "Utility",
-    "usage": "google"
-  },
-  {
-    "id": "76",
-    "name": "roleall",
-    "description": "Add a role to every user in the server.",
-    "category": "Moderation",
-    "usage": "roleall [role]"
-  },
-  {
-    "id": "77",
-    "name": "nuke",
-    "description": "Fully clear the channel.",
-    "category": "Moderation",
-    "usage": "nuke"
-  },
-  {
-    "id": "78",
-    "name": "vanity",
-    "description": "Check if a vanity is available",
-    "category": "Information",
-    "usage": "vanity [vanity]"
-  },
-  {
-    "id": "79",
-    "name": "user",
-    "description": "User group",
-    "category": "Information",
-    "usage": "user"
-  },
-  {
-    "id": "80",
-    "name": "support",
-    "description": "Get the link for the support server",
-    "category": "Information",
-    "usage": "support"
-  },
-  {
-    "id": "81",
-    "name": "serverblacklist",
-    "description": "Restrict a user from using the bot in this server.",
-    "category": "Moderation",
-    "usage": "serverblacklist [user]"
-  },
-  {
-    "id": "82",
-    "name": "firstmessage",
-    "description": "Retrieve the first message in a channel",
-    "category": "Information",
-    "usage": "firstmessage (channel)"
-  },
-  {
-    "id": "83",
-    "name": "serverunblacklist",
-    "description": "Revoke a server-specific blacklist on a user.",
-    "category": "Moderation",
-    "usage": "serverunblacklist [user]"
-  },
-  {
-    "id": "84",
-    "name": "welcome",
-    "description": "Welcome-related commands!",
-    "category": "Welcome",
-    "usage": "welcome"
-  },
-  {
-    "id": "85",
-    "name": "invite",
-    "description": "Invite group | Get bot invite.",
-    "category": "Information",
-    "usage": "invite"
-  },
-  {
-    "id": "86",
-    "name": "imageonly",
-    "description": "Restrict users from sending anything but images.",
-    "category": "Moderation",
-    "usage": "imageonly (channel)"
-  },
-  {
-    "id": "87",
-    "name": "uptime",
-    "description": "Check the bot's uptime.",
-    "category": "Information",
-    "usage": "uptime"
-  },
-  {
-    "id": "88",
-    "name": "clear",
-    "description": "No description provided",
-    "category": "Music",
-    "usage": "clear"
-  },
-  {
-    "id": "89",
-    "name": "codechallenge",
-    "description": "Challenge yourself to a game of code!",
-    "category": "Fun",
-    "usage": "codechallenge (language defaults to python) [level]"
-  },
-  {
-    "id": "90",
-    "name": "ping",
-    "description": "Check the bot's latency.",
-    "category": "Information",
-    "usage": "ping"
-  },
-  {
-    "id": "92",
-    "name": "memory",
-    "description": "Check the bot's memory usage.",
-    "category": "Information",
-    "usage": "memory"
-  },
-  {
-    "id": "93",
-    "name": "vanityrole",
-    "description": "Vanity-role-related commands!",
-    "category": "Configuration",
-    "usage": "vanityrole"
-  },
-  {
-    "id": "94",
-    "name": "ram",
-    "description": "Check the bot's RAM usage.",
-    "category": "Information",
-    "usage": "ram"
-  },
-  {
-    "id": "95",
-    "name": "roblox",
-    "description": "No description provided",
-    "category": "Social",
-    "usage": "roblox"
-  },
-  {
-    "id": "96",
-    "name": "threads",
-    "description": "Check the bot's active threads.",
-    "category": "Information",
-    "usage": "threads"
-  },
-  {
-    "id": "97",
-    "name": "crypto",
-    "description": "Manage your cryptocurrency balances.",
-    "category": "Economy",
-    "usage": "crypto"
-  },
-  {
-    "id": "98",
-    "name": "swap",
-    "description": "Check the bot's swap memory usage.",
-    "category": "Information",
-    "usage": "swap"
-  },
-  {
-    "id": "99",
-    "name": "register",
-    "description": "Register to use economy commands.",
-    "category": "Economy",
-    "usage": "register"
-  },
-  {
-    "id": "100",
-    "name": "emojisteal",
-    "description": "Take emoji's from another server into yours",
-    "category": "Utility",
-    "usage": "emojisteal [emoji(s)]"
-  },
-  {
-    "id": "101",
-    "name": "disk",
-    "description": "Check the bot's disk usage.",
-    "category": "Information",
-    "usage": "disk"
-  },
-  {
-    "id": "102",
-    "name": "unregister",
-    "description": "Unregister from economy commands.",
-    "category": "Economy",
-    "usage": "unregister"
-  },
-  {
-    "id": "103",
-    "name": "diskio",
-    "description": "Check the bot's disk I/O statistics.",
-    "category": "Information",
-    "usage": "diskio"
-  },
-  {
-    "id": "104",
-    "name": "purchase",
-    "description": "Purchase an item.",
-    "category": "Economy",
-    "usage": "purchase"
-  },
-  {
-    "id": "105",
-    "name": "network",
-    "description": "Check the bot's network usage.",
-    "category": "Information",
-    "usage": "network"
-  },
-  {
-    "id": "106",
-    "name": "tempmail",
-    "description": "TempMail-related commands!",
-    "category": "Utility",
-    "usage": "tempmail"
-  },
-  {
-    "id": "107",
-    "name": "bots",
-    "description": "List all bots in the server",
-    "category": "Information",
-    "usage": "bots"
-  },
-  {
-    "id": "108",
-    "name": "membercount",
-    "description": "Get the member count of the server.",
-    "category": "Information",
-    "usage": "membercount"
-  },
-  {
-    "id": "109",
+    "id": "24",
     "name": "botinfo",
     "description": "Retrieve information about the bot.",
     "category": "Information",
     "usage": "botinfo"
   },
   {
-    "id": "110",
+    "id": "25",
     "name": "server",
     "description": "Server group",
     "category": "Information",
     "usage": "server"
   },
   {
+    "id": "26",
+    "name": "server banner",
+    "description": "Retrieve a server's banner if one is present.",
+    "category": "Information",
+    "usage": "server banner"
+  },
+  {
+    "id": "27",
+    "name": "server invite",
+    "description": "Get the server invite link.",
+    "category": "Information",
+    "usage": "server invite"
+  },
+  {
+    "id": "28",
+    "name": "server information",
+    "description": "Get information about a server",
+    "category": "Information",
+    "usage": "server information (invite_link)"
+  },
+  {
+    "id": "29",
+    "name": "server icon",
+    "description": "Retrieve a server's icon if one is present.",
+    "category": "Information",
+    "usage": "server icon"
+  },
+  {
+    "id": "30",
+    "name": "server avatar",
+    "description": "Retrieve a user's server-avatar.",
+    "category": "Information",
+    "usage": "server avatar"
+  },
+  {
+    "id": "31",
+    "name": "vanity",
+    "description": "Check if a vanity is available",
+    "category": "Information",
+    "usage": "vanity [vanity]"
+  },
+  {
+    "id": "32",
+    "name": "play",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "play [query]"
+  },
+  {
+    "id": "33",
+    "name": "antinuke",
+    "description": "AntiNuke-related commands!",
+    "category": "Configuration",
+    "usage": "antinuke"
+  },
+  {
+    "id": "34",
+    "name": "antinuke status",
+    "description": "Check the status of the antinuke system.",
+    "category": "Configuration",
+    "usage": "antinuke status"
+  },
+  {
+    "id": "35",
+    "name": "antinuke status enable",
+    "description": "Enable the antinuke system.",
+    "category": "Uncategorized",
+    "usage": "antinuke status enable"
+  },
+  {
+    "id": "36",
+    "name": "antinuke status disable",
+    "description": "Disable the antinuke system.",
+    "category": "Configuration",
+    "usage": "antinuke status disable"
+  },
+  {
+    "id": "37",
+    "name": "antinuke logging",
+    "description": "Commands to manage anti-nuke logging",
+    "category": "Configuration",
+    "usage": "antinuke logging"
+  },
+  {
+    "id": "38",
+    "name": "antinuke logging getchannel",
+    "description": "Get the log channel for the antinuke system.",
+    "category": "Configuration",
+    "usage": "antinuke logging getchannel"
+  },
+  {
+    "id": "39",
+    "name": "antinuke logging status",
+    "description": "Check the status of anti-nuke logging.",
+    "category": "Configuration",
+    "usage": "antinuke logging status"
+  },
+  {
+    "id": "40",
+    "name": "antinuke logging setchannel",
+    "description": "Set the log channel for the antinuke system.",
+    "category": "Configuration",
+    "usage": "antinuke logging setchannel [channel]"
+  },
+  {
+    "id": "41",
+    "name": "antinuke logging enable",
+    "description": "Enables the anti-nuke logging.",
+    "category": "Configuration",
+    "usage": "antinuke logging enable"
+  },
+  {
+    "id": "42",
+    "name": "antinuke logging removechannel",
+    "description": "Remove the log channel for the antinuke system.",
+    "category": "Configuration",
+    "usage": "antinuke logging removechannel [channel]"
+  },
+  {
+    "id": "43",
+    "name": "antinuke logging list",
+    "description": "Get a list of anti-nuke logs.",
+    "category": "Configuration",
+    "usage": "antinuke logging list"
+  },
+  {
+    "id": "44",
+    "name": "antinuke logging disable",
+    "description": "Disables the anti-nuke logging.",
+    "category": "Configuration",
+    "usage": "antinuke logging disable"
+  },
+  {
+    "id": "45",
+    "name": "antinuke whitelist",
+    "description": "Whitelist management commands",
+    "category": "Configuration",
+    "usage": "antinuke whitelist"
+  },
+  {
+    "id": "46",
+    "name": "antinuke whitelist add",
+    "description": "Whitelist a user from the antinuke system.",
+    "category": "Configuration",
+    "usage": "antinuke whitelist add [user]"
+  },
+  {
+    "id": "47",
+    "name": "antinuke whitelist remove",
+    "description": "Remove a user from the antinuke whitelist.",
+    "category": "Configuration",
+    "usage": "antinuke whitelist remove [user]"
+  },
+  {
+    "id": "48",
+    "name": "antinuke punishments",
+    "description": "Commands to manage punishment settings",
+    "category": "Configuration",
+    "usage": "antinuke punishments"
+  },
+  {
+    "id": "49",
+    "name": "antinuke punishments get",
+    "description": "Get the current punishment for anti-nuke.",
+    "category": "Configuration",
+    "usage": "antinuke punishments get"
+  },
+  {
+    "id": "50",
+    "name": "antinuke punishments set",
+    "description": "Set the punishment for users who add bots to the server.",
+    "category": "Configuration",
+    "usage": "antinuke punishments set [type]"
+  },
+  {
+    "id": "51",
+    "name": "antinuke punishments time",
+    "description": "Set the time for the timeout punishment.",
+    "category": "Configuration",
+    "usage": "antinuke punishments time [time]"
+  },
+  {
+    "id": "52",
+    "name": "skip",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "skip"
+  },
+  {
+    "id": "53",
+    "name": "pause",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "pause"
+  },
+  {
+    "id": "54",
+    "name": "resume",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "resume"
+  },
+  {
+    "id": "55",
+    "name": "volume",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "volume <percentage>"
+  },
+  {
+    "id": "56",
+    "name": "shuffle",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "shuffle"
+  },
+  {
+    "id": "57",
+    "name": "timeout",
+    "description": "Time a user out.",
+    "category": "Moderation",
+    "usage": "timeout [user] (time) (reason)"
+  },
+  {
+    "id": "58",
+    "name": "leave",
+    "description": "No description provided",
+    "category": "Music",
+    "usage": "leave"
+  },
+  {
+    "id": "59",
+    "name": "untimeout",
+    "description": "Remove a timeout from a user.",
+    "category": "Moderation",
+    "usage": "untimeout [user] (reason)"
+  },
+  {
+    "id": "60",
+    "name": "help",
+    "description": "Retrieve the list of commands.",
+    "category": "Help",
+    "usage": "help (command)"
+  },
+  {
+    "id": "61",
+    "name": "codechallenge",
+    "description": "Challenge yourself to a game of code!",
+    "category": "Fun",
+    "usage": "codechallenge (language defaults to python) [level]"
+  },
+  {
+    "id": "62",
+    "name": "hide",
+    "description": "Hides a specified channel from everyone.",
+    "category": "Moderation",
+    "usage": "hide (channel)"
+  },
+  {
+    "id": "63",
+    "name": "textonly",
+    "description": "Restrict users from sending images.",
+    "category": "Moderation",
+    "usage": "textonly (channel)"
+  },
+  {
+    "id": "64",
+    "name": "firstmessage",
+    "description": "Retrieve the first message in a channel",
+    "category": "Information",
+    "usage": "firstmessage (channel)"
+  },
+  {
+    "id": "65",
+    "name": "auditlogs",
+    "description": "Retrieve the audit logs.",
+    "category": "Moderation",
+    "usage": "auditlogs"
+  },
+  {
+    "id": "66",
+    "name": "resetnickname",
+    "description": "Resets a user's nickname.",
+    "category": "Moderation",
+    "usage": "resetnickname [member]"
+  },
+  {
+    "id": "67",
+    "name": "support",
+    "description": "Get the link for the support server",
+    "category": "Information",
+    "usage": "support"
+  },
+  {
+    "id": "68",
+    "name": "user",
+    "description": "User group",
+    "category": "Information",
+    "usage": "user"
+  },
+  {
+    "id": "69",
+    "name": "user decoration",
+    "description": "Retrieve a user's avatar decoration",
+    "category": "Information",
+    "usage": "user decoration"
+  },
+  {
+    "id": "70",
+    "name": "user banner",
+    "description": "Retrieve a user's banner",
+    "category": "Information",
+    "usage": "user banner (user)"
+  },
+  {
+    "id": "71",
+    "name": "user avatar",
+    "description": "Retrieve a user's avatar.",
+    "category": "Information",
+    "usage": "user avatar"
+  },
+  {
+    "id": "72",
+    "name": "user information",
+    "description": "Retrieve information on a user.",
+    "category": "Information",
+    "usage": "user information"
+  },
+  {
+    "id": "73",
+    "name": "unhide",
+    "description": "Makes a hidden channel visible to everyone.",
+    "category": "Moderation",
+    "usage": "unhide (channel)"
+  },
+  {
+    "id": "74",
+    "name": "nickname",
+    "description": "Changes a user's nickname",
+    "category": "Moderation",
+    "usage": "nickname [member] [nickname]"
+  },
+  {
+    "id": "75",
+    "name": "unbanall",
+    "description": "Unban all users that have been banned from the server.",
+    "category": "Moderation",
+    "usage": "unbanall"
+  },
+  {
+    "id": "76",
+    "name": "lock",
+    "description": "Lock a channel.",
+    "category": "Moderation",
+    "usage": "lock (channel)"
+  },
+  {
+    "id": "77",
+    "name": "nicknameall",
+    "description": "Changes the nickname of all server members.",
+    "category": "Moderation",
+    "usage": "nicknameall [nickname]"
+  },
+  {
+    "id": "78",
+    "name": "resetnicknameall",
+    "description": "Resets the nicknames of all server members.",
+    "category": "Moderation",
+    "usage": "resetnicknameall"
+  },
+  {
+    "id": "79",
+    "name": "softban",
+    "description": "Softban a user from the server.",
+    "category": "Moderation",
+    "usage": "softban [user/id] (reason)"
+  },
+  {
+    "id": "80",
+    "name": "ban",
+    "description": "Ban a user from the server.",
+    "category": "Moderation",
+    "usage": "ban [user] (reason)"
+  },
+  {
+    "id": "81",
+    "name": "vanityrole",
+    "description": "Vanity-role-related commands!",
+    "category": "Configuration",
+    "usage": "vanityrole"
+  },
+  {
+    "id": "82",
+    "name": "vanityrole add",
+    "description": "Add a vanity role to a keyword.",
+    "category": "Configuration",
+    "usage": "vanityrole add [keyword] [role]"
+  },
+  {
+    "id": "83",
+    "name": "vanityrole list",
+    "description": "List all vanity roles.",
+    "category": "Uncategorized",
+    "usage": "vanityrole list"
+  },
+  {
+    "id": "84",
+    "name": "vanityrole remove",
+    "description": "Remove a vanity role from a keyword.",
+    "category": "Configuration",
+    "usage": "vanityrole remove [keyword]"
+  },
+  {
+    "id": "85",
+    "name": "unban",
+    "description": "Unban a user from the server.",
+    "category": "Moderation",
+    "usage": "unban [user_id]"
+  },
+  {
+    "id": "86",
+    "name": "tiktok",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "tiktok"
+  },
+  {
+    "id": "87",
+    "name": "lockdown",
+    "description": "Lock down the server.",
+    "category": "Moderation",
+    "usage": "lockdown"
+  },
+  {
+    "id": "88",
+    "name": "invite",
+    "description": "Invite group | Get bot invite.",
+    "category": "Information",
+    "usage": "invite"
+  },
+  {
+    "id": "89",
+    "name": "invite information",
+    "description": "Retrieve information about a sever by an invite link",
+    "category": "Information",
+    "usage": "invite information [invite_link]"
+  },
+  {
+    "id": "90",
+    "name": "unregister",
+    "description": "Unregister from economy commands.",
+    "category": "Economy",
+    "usage": "unregister"
+  },
+  {
+    "id": "91",
+    "name": "editsnipe",
+    "description": "Retrieve the most recently edited message in this server.",
+    "category": "Snipe",
+    "usage": "editsnipe"
+  },
+  {
+    "id": "92",
+    "name": "register",
+    "description": "Register to use economy commands.",
+    "category": "Economy",
+    "usage": "register"
+  },
+  {
+    "id": "93",
+    "name": "unlock",
+    "description": "Unlock a channel.",
+    "category": "Moderation",
+    "usage": "unlock (channel)"
+  },
+  {
+    "id": "94",
+    "name": "crypto",
+    "description": "Manage your cryptocurrency balances.",
+    "category": "Economy",
+    "usage": "crypto"
+  },
+  {
+    "id": "95",
+    "name": "crypto prices",
+    "description": "Check the current prices of cryptocurrencies.",
+    "category": "Economy",
+    "usage": "crypto prices"
+  },
+  {
+    "id": "96",
+    "name": "crypto howmuch",
+    "description": "Check how much cryptocurrency you can buy",
+    "category": "Economy",
+    "usage": "crypto howmuch"
+  },
+  {
+    "id": "97",
+    "name": "crypto balance",
+    "description": "Check your cryptocurrency balance.",
+    "category": "Economy",
+    "usage": "crypto balance"
+  },
+  {
+    "id": "98",
+    "name": "crypto purchase",
+    "description": "Purchase cryptocurrency.",
+    "category": "Economy",
+    "usage": "crypto purchase"
+  },
+  {
+    "id": "99",
+    "name": "crypto sell",
+    "description": "Sell cryptocurrency.",
+    "category": "Economy",
+    "usage": "crypto sell"
+  },
+  {
+    "id": "100",
+    "name": "purchase",
+    "description": "Purchase an item.",
+    "category": "Economy",
+    "usage": "purchase"
+  },
+  {
+    "id": "101",
+    "name": "slowmode",
+    "description": "Set the slowmode for a channel.",
+    "category": "Moderation",
+    "usage": "slowmode (channel) (time)"
+  },
+  {
+    "id": "102",
+    "name": "createrole",
+    "description": "Create a role.",
+    "category": "Moderation",
+    "usage": "createrole [name] (color HEX)"
+  },
+  {
+    "id": "103",
+    "name": "roblox",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "roblox"
+  },
+  {
+    "id": "104",
+    "name": "roblox account",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "roblox account"
+  },
+  {
+    "id": "105",
+    "name": "roblox account verify",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "roblox account verify"
+  },
+  {
+    "id": "106",
+    "name": "roblox account verify start",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "roblox account verify start"
+  },
+  {
+    "id": "107",
+    "name": "roblox account verify check",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "roblox account verify check"
+  },
+  {
+    "id": "108",
+    "name": "roblox account set",
+    "description": "No description provided",
+    "category": "Social",
+    "usage": "roblox account set"
+  },
+  {
+    "id": "109",
+    "name": "reactionsnipe",
+    "description": "Retrieve the most recently deleted reaction in this server.",
+    "category": "Snipe",
+    "usage": "reactionsnipe"
+  },
+  {
+    "id": "110",
+    "name": "imagemute",
+    "description": "Block or un-block a user from sending images.",
+    "category": "Moderation",
+    "usage": "imagemute [user]"
+  },
+  {
+    "id": "111",
+    "name": "role",
+    "description": "Add or remove a role from a user.",
+    "category": "Moderation",
+    "usage": "role [user] [role/roleid]"
+  },
+  {
     "id": "112",
+    "name": "banlist",
+    "description": "View the list of banned users in the server",
+    "category": "Moderation",
+    "usage": "banlist"
+  },
+  {
+    "id": "113",
+    "name": "purge",
+    "description": "No description provided",
+    "category": "Moderation",
+    "usage": "purge (user) [amount]"
+  },
+  {
+    "id": "114",
+    "name": "welcome",
+    "description": "Welcome-related commands!",
+    "category": "Welcome",
+    "usage": "welcome"
+  },
+  {
+    "id": "115",
+    "name": "welcome unset",
+    "description": "Unset the welcome system.",
+    "category": "Welcome",
+    "usage": "welcome unset"
+  },
+  {
+    "id": "116",
+    "name": "welcome set",
+    "description": "Setup the welcome system.",
+    "category": "Welcome",
+    "usage": "welcome set [message]"
+  },
+  {
+    "id": "117",
+    "name": "disconnect",
+    "description": "Disconnect a user from the voice channel.",
+    "category": "Moderation",
+    "usage": "disconnect [user]"
+  },
+  {
+    "id": "118",
+    "name": "selfpurge",
+    "description": "No description provided",
+    "category": "Moderation",
+    "usage": "selfpurge (amount)"
+  },
+  {
+    "id": "119",
+    "name": "move",
+    "description": "Move a user to another voice channel.",
+    "category": "Moderation",
+    "usage": "move [user] [voice_channel]"
+  },
+  {
+    "id": "120",
+    "name": "kick",
+    "description": "Kick a user from the server.",
+    "category": "Moderation",
+    "usage": "kick [user/id] (reason)"
+  },
+  {
+    "id": "121",
+    "name": "nsfw",
+    "description": "Toggle the NSFW of a channel.",
+    "category": "Moderation",
+    "usage": "nsfw [on/off] (channel)"
+  },
+  {
+    "id": "122",
+    "name": "anilist",
+    "description": "Lookup an anime using Anilist.",
+    "category": "Social",
+    "usage": "anilist [title]"
+  },
+  {
+    "id": "123",
+    "name": "isprime",
+    "description": "Check if a number is prime.",
+    "category": "Utility",
+    "usage": "isprime [number]"
+  },
+  {
+    "id": "124",
+    "name": "speak",
+    "description": "Make stitch say something.",
+    "category": "Utility",
+    "usage": "speak [word(s)]"
+  },
+  {
+    "id": "125",
     "name": "social",
     "description": "Social group.",
     "category": "Social",
     "usage": "social"
   },
   {
-    "id": "114",
-    "name": "anilist",
-    "description": "Lookup an anime using Anilist.",
+    "id": "126",
+    "name": "social account",
+    "description": "Social account commands.",
     "category": "Social",
-    "usage": "anilist [title]"
+    "usage": "social account"
+  },
+  {
+    "id": "127",
+    "name": "social account create",
+    "description": "Create a social media account.",
+    "category": "Social",
+    "usage": "social account create (username)"
+  },
+  {
+    "id": "128",
+    "name": "social account settings",
+    "description": "View/Edit your social account settings.",
+    "category": "Social",
+    "usage": "social account settings"
+  },
+  {
+    "id": "129",
+    "name": "google",
+    "description": "Google-related commands!",
+    "category": "Utility",
+    "usage": "google"
+  },
+  {
+    "id": "130",
+    "name": "google search",
+    "description": "Retrieve Google search data from a query.",
+    "category": "Utility",
+    "usage": "google search [query]"
+  },
+  {
+    "id": "131",
+    "name": "google image",
+    "description": "Retrieve images for a specified query.",
+    "category": "Utility",
+    "usage": "google image [query]"
+  },
+  {
+    "id": "132",
+    "name": "roleall",
+    "description": "Add a role to every user in the server.",
+    "category": "Moderation",
+    "usage": "roleall [role]"
+  },
+  {
+    "id": "133",
+    "name": "nuke",
+    "description": "Fully clear the channel.",
+    "category": "Moderation",
+    "usage": "nuke"
+  },
+  {
+    "id": "134",
+    "name": "autoresponder",
+    "description": "Manage auto responses",
+    "category": "Utility",
+    "usage": "autoresponder"
+  },
+  {
+    "id": "135",
+    "name": "autoresponder remove",
+    "description": "Remove an auto response.",
+    "category": "Utility",
+    "usage": "autoresponder remove [trigger]"
+  },
+  {
+    "id": "136",
+    "name": "autoresponder add",
+    "description": "Add an auto response.",
+    "category": "Utility",
+    "usage": "autoresponder add [trigger] [response]"
+  },
+  {
+    "id": "137",
+    "name": "autoresponder list",
+    "description": "List all auto responses.",
+    "category": "Utility",
+    "usage": "autoresponder list"
+  },
+  {
+    "id": "138",
+    "name": "referral",
+    "description": "Get your referral code.",
+    "category": "Economy",
+    "usage": "referral"
+  },
+  {
+    "id": "139",
+    "name": "referral set",
+    "description": "Set your referral code.",
+    "category": "Economy",
+    "usage": "referral set"
+  },
+  {
+    "id": "140",
+    "name": "serverblacklist",
+    "description": "Restrict a user from using the bot in this server.",
+    "category": "Moderation",
+    "usage": "serverblacklist [user]"
+  },
+  {
+    "id": "141",
+    "name": "balance",
+    "description": "Check your economy balance.",
+    "category": "Economy",
+    "usage": "balance"
+  },
+  {
+    "id": "142",
+    "name": "serverunblacklist",
+    "description": "Revoke a server-specific blacklist on a user.",
+    "category": "Moderation",
+    "usage": "serverunblacklist [user]"
+  },
+  {
+    "id": "143",
+    "name": "beg",
+    "description": "Beg for money.",
+    "category": "Economy",
+    "usage": "beg"
+  },
+  {
+    "id": "144",
+    "name": "imageonly",
+    "description": "Restrict users from sending anything but images.",
+    "category": "Moderation",
+    "usage": "imageonly (channel)"
+  },
+  {
+    "id": "145",
+    "name": "autorole",
+    "description": "Auto-role-related commands!",
+    "category": "AutoRole",
+    "usage": "autorole"
+  },
+  {
+    "id": "146",
+    "name": "autorole list",
+    "description": "List all autoroles assigned to the guild.",
+    "category": "AutoRole",
+    "usage": "autorole list"
+  },
+  {
+    "id": "147",
+    "name": "autorole remove",
+    "description": "Remove an auto role that will no longer be given on member join.",
+    "category": "AutoRole",
+    "usage": "autorole remove [role]"
+  },
+  {
+    "id": "148",
+    "name": "autorole add",
+    "description": "Add an auto role that will be given on member join.",
+    "category": "AutoRole",
+    "usage": "autorole add [role]"
+  },
+  {
+    "id": "149",
+    "name": "tictactoe",
+    "description": "Play tictactoe with a buddy.",
+    "category": "Games",
+    "usage": "tictactoe [user]"
+  },
+  {
+    "id": "150",
+    "name": "embed",
+    "description": "Embed group.",
+    "category": "Utility",
+    "usage": "embed"
+  },
+  {
+    "id": "151",
+    "name": "embed delete",
+    "description": "Delete a saved embed from your embeds.",
+    "category": "Utility",
+    "usage": "embed delete"
+  },
+  {
+    "id": "152",
+    "name": "embed list",
+    "description": "Get a list of your saved embeds.",
+    "category": "Utility",
+    "usage": "embed list"
+  },
+  {
+    "id": "153",
+    "name": "embed build",
+    "description": "Start building an embed.",
+    "category": "Utility",
+    "usage": "embed build"
+  },
+  {
+    "id": "154",
+    "name": "embed load",
+    "description": "Load a saved embed from your saved embeds.",
+    "category": "Utility",
+    "usage": "embed load [name]"
+  },
+  {
+    "id": "155",
+    "name": "work",
+    "description": "Work to earn money.",
+    "category": "Economy",
+    "usage": "work"
+  },
+  {
+    "id": "156",
+    "name": "ping",
+    "description": "Check the bot's latency.",
+    "category": "Information",
+    "usage": "ping"
+  },
+  {
+    "id": "157",
+    "name": "add_money",
+    "description": "No description provided",
+    "category": "Economy",
+    "usage": "add_money"
+  },
+  {
+    "id": "158",
+    "name": "daily",
+    "description": "Claim your daily reward.",
+    "category": "Economy",
+    "usage": "daily"
+  },
+  {
+    "id": "159",
+    "name": "weekly",
+    "description": "Claim your weekly reward.",
+    "category": "Economy",
+    "usage": "weekly"
+  },
+  {
+    "id": "160",
+    "name": "uptime",
+    "description": "Check the bot's uptime.",
+    "category": "Information",
+    "usage": "uptime"
+  },
+  {
+    "id": "161",
+    "name": "roleplay",
+    "description": "No description provided",
+    "category": "Roleplay",
+    "usage": "roleplay"
+  },
+  {
+    "id": "162",
+    "name": "roleplay laugh",
+    "description": "Laugh at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay laugh (member)"
+  },
+  {
+    "id": "163",
+    "name": "roleplay pout",
+    "description": "Pout at someone.",
+    "category": "Roleplay",
+    "usage": "roleplay pout (member)"
+  },
+  {
+    "id": "164",
+    "name": "roleplay kick",
+    "description": "Kick someone.",
+    "category": "Roleplay",
+    "usage": "roleplay kick (member)"
+  },
+  {
+    "id": "165",
+    "name": "roleplay wave",
+    "description": "Wave at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay wave (member)"
+  },
+  {
+    "id": "166",
+    "name": "roleplay cry",
+    "description": "Cry at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay cry (member)"
+  },
+  {
+    "id": "167",
+    "name": "roleplay handhold",
+    "description": "Hold hands with someone.",
+    "category": "Roleplay",
+    "usage": "roleplay handhold (member)"
+  },
+  {
+    "id": "168",
+    "name": "roleplay happy",
+    "description": "Show happiness.",
+    "category": "Roleplay",
+    "usage": "roleplay happy (member)"
+  },
+  {
+    "id": "169",
+    "name": "roleplay poke",
+    "description": "Poke someone or randomly.",
+    "category": "Roleplay",
+    "usage": "roleplay poke (member)"
+  },
+  {
+    "id": "170",
+    "name": "roleplay sleep",
+    "description": "Sleep peacefully, optionally with someone.",
+    "category": "Roleplay",
+    "usage": "roleplay sleep (member)"
+  },
+  {
+    "id": "171",
+    "name": "roleplay thumbsup",
+    "description": "Give a thumbs up.",
+    "category": "Roleplay",
+    "usage": "roleplay thumbsup (member)"
+  },
+  {
+    "id": "172",
+    "name": "roleplay hug",
+    "description": "Hug someone.",
+    "category": "Roleplay",
+    "usage": "roleplay hug (member)"
+  },
+  {
+    "id": "173",
+    "name": "roleplay smile",
+    "description": "Smile at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay smile (member)"
+  },
+  {
+    "id": "174",
+    "name": "roleplay bored",
+    "description": "Express boredom, optionally with someone.",
+    "category": "Roleplay",
+    "usage": "roleplay bored (member)"
+  },
+  {
+    "id": "175",
+    "name": "roleplay baka",
+    "description": "Call someone baka.",
+    "category": "Roleplay",
+    "usage": "roleplay baka (member)"
+  },
+  {
+    "id": "176",
+    "name": "roleplay peck",
+    "description": "Give a peck to someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay peck (member)"
+  },
+  {
+    "id": "177",
+    "name": "roleplay think",
+    "description": "Think about someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay think (member)"
+  },
+  {
+    "id": "178",
+    "name": "roleplay pat",
+    "description": "Pat someone.",
+    "category": "Roleplay",
+    "usage": "roleplay pat (member)"
+  },
+  {
+    "id": "179",
+    "name": "roleplay wink",
+    "description": "Wink at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay wink (member)"
+  },
+  {
+    "id": "180",
+    "name": "roleplay smug",
+    "description": "Look smug at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay smug (member)"
+  },
+  {
+    "id": "181",
+    "name": "roleplay angry",
+    "description": "Get angry at someone or yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay angry (member)"
+  },
+  {
+    "id": "182",
+    "name": "roleplay blush",
+    "description": "Blush around someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay blush (member)"
+  },
+  {
+    "id": "183",
+    "name": "roleplay yawn",
+    "description": "Yawn at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay yawn (member)"
+  },
+  {
+    "id": "184",
+    "name": "roleplay run",
+    "description": "Run from someone or yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay run (member)"
+  },
+  {
+    "id": "185",
+    "name": "roleplay tickle",
+    "description": "Tickle someone.",
+    "category": "Roleplay",
+    "usage": "roleplay tickle (member)"
+  },
+  {
+    "id": "186",
+    "name": "roleplay lurk",
+    "description": "Lurk around.",
+    "category": "Roleplay",
+    "usage": "roleplay lurk (member)"
+  },
+  {
+    "id": "187",
+    "name": "roleplay nod",
+    "description": "Nod at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay nod (member)"
+  },
+  {
+    "id": "188",
+    "name": "roleplay yeet",
+    "description": "Yeet someone.",
+    "category": "Roleplay",
+    "usage": "roleplay yeet (member)"
+  },
+  {
+    "id": "189",
+    "name": "roleplay neko",
+    "description": "Show your neko side.",
+    "category": "Roleplay",
+    "usage": "roleplay neko (member)"
+  },
+  {
+    "id": "190",
+    "name": "roleplay nope",
+    "description": "Say nope to someone.",
+    "category": "Roleplay",
+    "usage": "roleplay nope (member)"
+  },
+  {
+    "id": "191",
+    "name": "roleplay highfive",
+    "description": "Highfive someone.",
+    "category": "Roleplay",
+    "usage": "roleplay highfive (member)"
+  },
+  {
+    "id": "192",
+    "name": "roleplay waifu",
+    "description": "Act like a waifu.",
+    "category": "Roleplay",
+    "usage": "roleplay waifu (member)"
+  },
+  {
+    "id": "193",
+    "name": "roleplay kiss",
+    "description": "Kiss someone.",
+    "category": "Roleplay",
+    "usage": "roleplay kiss (member)"
+  },
+  {
+    "id": "194",
+    "name": "roleplay feed",
+    "description": "Feed someone.",
+    "category": "Roleplay",
+    "usage": "roleplay feed (member)"
+  },
+  {
+    "id": "195",
+    "name": "roleplay husbando",
+    "description": "Act like a husbando.",
+    "category": "Roleplay",
+    "usage": "roleplay husbando (member)"
+  },
+  {
+    "id": "196",
+    "name": "roleplay dance",
+    "description": "Dance with someone.",
+    "category": "Roleplay",
+    "usage": "roleplay dance (member)"
+  },
+  {
+    "id": "197",
+    "name": "roleplay bite",
+    "description": "Bite someone.",
+    "category": "Roleplay",
+    "usage": "roleplay bite (member)"
+  },
+  {
+    "id": "198",
+    "name": "roleplay kitsune",
+    "description": "Show your kitsune spirit.",
+    "category": "Roleplay",
+    "usage": "roleplay kitsune (member)"
+  },
+  {
+    "id": "199",
+    "name": "roleplay punch",
+    "description": "Punch someone.",
+    "category": "Roleplay",
+    "usage": "roleplay punch (member)"
+  },
+  {
+    "id": "200",
+    "name": "roleplay nom",
+    "description": "Nom on someone.",
+    "category": "Roleplay",
+    "usage": "roleplay nom (member)"
+  },
+  {
+    "id": "201",
+    "name": "roleplay shoot",
+    "description": "Shoot someone or randomly.",
+    "category": "Roleplay",
+    "usage": "roleplay shoot (member)"
+  },
+  {
+    "id": "202",
+    "name": "roleplay handshake",
+    "description": "Shake hands with someone.",
+    "category": "Roleplay",
+    "usage": "roleplay handshake (member)"
+  },
+  {
+    "id": "203",
+    "name": "roleplay facepalm",
+    "description": "Facepalm yourself or someone.",
+    "category": "Roleplay",
+    "usage": "roleplay facepalm (member)"
+  },
+  {
+    "id": "204",
+    "name": "roleplay shrug",
+    "description": "Shrug at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay shrug (member)"
+  },
+  {
+    "id": "205",
+    "name": "roleplay slap",
+    "description": "Slap someone.",
+    "category": "Roleplay",
+    "usage": "roleplay slap (member)"
+  },
+  {
+    "id": "206",
+    "name": "roleplay cuddle",
+    "description": "Cuddle someone.",
+    "category": "Roleplay",
+    "usage": "roleplay cuddle (member)"
+  },
+  {
+    "id": "207",
+    "name": "roleplay stare",
+    "description": "Stare at someone or by yourself.",
+    "category": "Roleplay",
+    "usage": "roleplay stare (member)"
+  },
+  {
+    "id": "208",
+    "name": "reactiongame",
+    "description": "Play a game of reactionspeed!",
+    "category": "Games",
+    "usage": "reactiongame"
   }
 ]
