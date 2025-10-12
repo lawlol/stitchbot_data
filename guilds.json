@@ -23,5 +23,10 @@
     "name": "music domain",
     "members": "3",
     "image": null
+  },
+  {
+    "name": "stitch",
+    "members": "2",
+    "image": "https://cdn.discordapp.com/icons/1426969340145696851/21d600152158368bf17684ffe9c162fd.png?size=1024"
   }
 ]
