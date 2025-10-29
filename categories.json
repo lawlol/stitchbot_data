@@ -3,6 +3,7 @@
   "History",
   "Configuration",
   "Dispatcher",
+  "Economy",
   "Fun",
   "Games",
   "Help",
@@ -15,6 +16,8 @@
   "StitchNetwork",
   "Thread",
   "Tickets",
+  "Timezone",
   "Utility",
+  "VoiceMaster",
   "Welcome"
 ]
