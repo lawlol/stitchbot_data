@@ -1,7 +1,7 @@
 [
   {
     "name": "dorking",
-    "members": "126",
+    "members": "117",
     "image": "https://cdn.discordapp.com/icons/1392573792756174958/0710382997689bfb649f86564fe9780e.png?size=1024"
   },
   {
@@ -11,22 +11,12 @@
   },
   {
     "name": "/ip - #1 market",
-    "members": "9",
+    "members": "8",
     "image": "https://cdn.discordapp.com/icons/1426385471851728976/d2c93f14b2717e6c31d6113e9c5f9a88.png?size=1024"
   },
   {
     "name": "stitch",
     "members": "5",
     "image": "https://cdn.discordapp.com/icons/1426969340145696851/21d600152158368bf17684ffe9c162fd.png?size=1024"
-  },
-  {
-    "name": "comet testing",
-    "members": "4",
-    "image": null
-  },
-  {
-    "name": "law's server",
-    "members": "4",
-    "image": null
   }
 ]
