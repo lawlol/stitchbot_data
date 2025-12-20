@@ -6,7 +6,7 @@
   },
   {
     "name": "fg (not a public server)",
-    "members": "35",
+    "members": "39",
     "image": "https://cdn.discordapp.com/icons/1448502506060775506/db1ec372160382c984e2f6aa1c9f6c75.png?size=1024"
   },
   {
@@ -20,13 +20,13 @@
     "image": "https://cdn.discordapp.com/icons/1426385471851728976/d2c93f14b2717e6c31d6113e9c5f9a88.png?size=1024"
   },
   {
+    "name": "taco tuesday",
+    "members": "8",
+    "image": "https://cdn.discordapp.com/icons/1450282787356803244/e2b609e1b57319d5285036eb5cf8835c.png?size=1024"
+  },
+  {
     "name": "stitch",
     "members": "5",
     "image": "https://cdn.discordapp.com/icons/1426969340145696851/21d600152158368bf17684ffe9c162fd.png?size=1024"
-  },
-  {
-    "name": "warmade subis's server",
-    "members": "3",
-    "image": null
   }
 ]
